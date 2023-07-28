@@ -1,7 +1,7 @@
 ## Keyboard ScanCodes for remapping
 
 ### This is a simple guide on remapping (rebinding) keyboard keys,  
-### whitout using an external tool, just regedit.exe.
+### whitout using an external tool, just the system registry.
 <!-- ### `v1.0` -->
 
 ---
@@ -25,17 +25,25 @@ How to create the value in the registry whitout the example file:
 2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not Keyboard Layout**S**)  
 3- Create a new binary value here, named: "Scancode Map" (without quotes).
 
-What goes inside this value is described below, in the regedit format.
+What goes inside the binary value is described below, in the regedit file format (so not manually entering via regedit.exe).
 
 ---
 
 ## Example: ##
 
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,3A,00,5D,E0,00,00,00,00
+```
+
 What means an entire regedit code:  
 
 | 00,00,00,00, | 00,00,00,00, | 02,00,00,00, | 3A,00,5D,E0, | 00,00,00,00 |
 | --- | --- | --- | --- | --- |
-| version | flag | number of rebinds +1! | rebind n1 | final bits
+| 1st 8 bits | 2nd 8 bits | 3rd 8 bits | 4th 8 bits | 5th 8 bits
+| version | flag | number of rebinds +1! | rebind n1 | final bits (null)
 
 Version: always 8 zeroes  
 Flag: always 8 zeroes  
