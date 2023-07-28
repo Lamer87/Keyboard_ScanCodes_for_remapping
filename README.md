@@ -113,7 +113,8 @@ so I'll help you with the table below :)
 
 ---
 
-### 📌 In this table, secondary code is always "00" when there are only 2 digits, others are specified.
+### 📌 In this table, secondary code is always "00" when there are only 2 digits,  
+others are specified.
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 | Code | Key (+ shift) | ITA layout (+ shift and altGR) |
