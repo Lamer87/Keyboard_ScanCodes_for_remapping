@@ -5,17 +5,17 @@
 
 ---
 
-You can download a zip with this readme, the example and the remover [here](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/archive/refs/heads/main.zip),  
+You can download all (this readme, the example and the remover) [here](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/archive/refs/heads/main.zip),  
 or just click on Code then Download ZIP.
 
-You can download just the EXAMPLE file to edit yourself [here]().  
-This one will add the necessary "hex" value to the registry,  
+You can download just the EXAMPLE file (Rebind.reg) to edit yourself [here]().  
+This one is ALREADY modified and will add the necessary "hex" value to the registry,  
 so before applying it you have to EDIT IT properly.
 
-If you want to get rid of the remapping, download [this file]() as well,  
-this one can be used to create the empty hex value.
+If you want to get rid of the remapping, download [this file]() as well (remover.reg),  
+this one can be even used to create the empty hex value.
 
-Every time you apply the values, you must AT LEAST logout and login, for the changes to take effect.
+Every time you apply the values, you must AT LEAST logout and login (or restart), for the changes to take effect.
 
 ---
 
@@ -24,7 +24,7 @@ How to create the value in the registry whitout the example file:
 2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not Keyboard Layout**S**)  
 3- Create a new binary value here, name: "Scancode Map" (without quotes).
 
-What goes inside this value is described below.
+What goes inside this value is described below, in the regedit format.
 
 ---
 
