@@ -24,7 +24,7 @@ it can be even used to create just the empty hex value.
 
 ---
 
-- 📜 How to create the value in the registry whitout the example file:  
+- 📜 How to manually create the value in the registry:  
   - 1- Open "C:\Windows\regedit.exe"  
   - 2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not \Keyboard Layout**S**)  
   - 3- Create a new "binary value" here, named "Scancode Map" (without quotes).
