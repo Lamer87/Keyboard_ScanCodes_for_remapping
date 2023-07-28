@@ -79,7 +79,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-This is an example with 3 rebinds:
+📜 This is an example with 3 rebinds:
 ```
 Windows Registry Editor Version 5.00
 
@@ -89,7 +89,7 @@ Windows Registry Editor Version 5.00
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-for a better demonstration view (do not use!)
+📜 For a better demonstration view (do not use!)
 ```
 "Scancode Map"=hex:
 00,00,00,00,    version
