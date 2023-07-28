@@ -1,6 +1,6 @@
 ## Keyboard ScanCodes for remapping
 
-### This is a simple guide on remapping (rebinding) keyboard keys,  
+### This is a simple guide for remapping (rebinding) keyboard keys,  
 ### whitout using an external tool, just the system registry.
 <!-- ### `v1.0` -->
 
