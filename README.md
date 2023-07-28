@@ -79,11 +79,8 @@ E0: can be 00 or E0 (or E1 for button Pause)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-📜 This is an example with 3 rebinds:
+📜 This is an example with 3 rebinds (do not use!):
 ```
-Windows Registry Editor Version 5.00
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
 "Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E1,00,00,00,00
                   |  version  |   flag    |  number   | 1st rebind| 2nd rebind| 3rd rebind| null bits |
 ```
