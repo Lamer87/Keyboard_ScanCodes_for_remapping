@@ -62,7 +62,7 @@ if the rebinds are 12 the value will be 13,00,00,00,
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-What means rebind n1:  
+What means "rebind n1":  
 
 | 3A,00, | 5D,E0, |
 | --- | --- |
