@@ -5,7 +5,7 @@
 
 ---
 
-You can download a zip with this readme, the example and the remover [here](),  
+You can download a zip with this readme, the example and the remover [here](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/archive/refs/heads/main.zip),  
 or just click on Code then Download ZIP.
 
 You can download just the EXAMPLE file to edit yourself [here]().  
