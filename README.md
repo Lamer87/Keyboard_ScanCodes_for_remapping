@@ -22,7 +22,7 @@ Every time you apply the values, you must AT LEAST logout and login (or restart)
 How to create the value in the registry whitout the example file:  
 1- Open "C:\Windows\regedit.exe"  
 2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not Keyboard Layout**S**)  
-3- Create a new binary value here, name: "Scancode Map" (without quotes).
+3- Create a new binary value here, named: "Scancode Map" (without quotes).
 
 What goes inside this value is described below, in the regedit format.
 
