@@ -1,16 +1,49 @@
 ## Keyboard ScanCodes for remapping
 
-TEXT
+### This is a simple guide on remapping (rebinding) keyboard keys.
+<!-- ### `v1.0` -->
+
+---
+
+You can download a zip with this readme, the example and the remover [here](),  
+or just click on Code then Download ZIP.
+
+You can download just the EXAMPLE file to edit yourself [here]().  
+This one will add the necessary "hex" value to the registry,  
+so before applying it you have to EDIT IT properly.
+
+If you want to get rid of the remapping, download [this file]() as well,  
+this one can be used to create the empty hex value.
+
+Every time you apply the values, you must AT LEAST logout and login, for the changes to take effect.
+
+---
+
+How to create the value in the registry whitout the example file:  
+1- Open "C:\Windows\regedit.exe"  
+2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not Keyboard**S** Layout)  
+3- Create a new binary value here
+
+What goes inside this value is described below.
 
 ---
 
 ## Example: ##
 
-What means an entire code:  
+What means an entire regedit code:  
 
 | 00,00,00,00, | 00,00,00,00, | 02,00,00,00, | 3A,00,5D,E0, | 00,00,00,00 |
 | --- | --- | --- | --- | --- |
 | version | flag | number of rebinds +1! | rebind n1 | final bits
+
+Version: always 8 zeroes  
+Flag: always 8 zeroes  
+
+Number of rebinds:  
+only the first 2 bits count, the value must be made up of the number of rebinds (8 digits for each one),  
+plus one for the final 8 bits (which must always be 8 zeroes).  
+For example, if we want to rebind 4 keys, the value will be 05,00,00,00,  
+if the rebinds are 12 the value will be 13,00,00,00,
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
@@ -22,9 +55,7 @@ What means rebind n1:
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-What means the single code:  
-
-5D,EO :  
+What means the single code "5D,EO":  
 
 5D: scancode of the key  
 E0: can be 00 or E0 (or E1 for button Pause)  
@@ -34,7 +65,14 @@ E0: can be 00 or E0 (or E1 for button Pause)
 
 ---
 
-In this table, secondary code is "00" for only 2 digits, others are specified.  
+A good tool to show keycodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
+it shows what keycode (first part) are you pressing on the keyboard.  
+Example: "ScanCode=0x4F" where the keycode is 4F but you don't know if the second part is 00 or E0  
+(so I'll help you with the table below :) )
+
+---
+
+In this table, secondary code is always "00" when there are only 2 digits, others are specified.
 
 
 | Code   | Keycap + shift   | ITA layout (+ shift and altGR)   |
@@ -162,3 +200,11 @@ In this table, secondary code is "00" for only 2 digits, others are specified.
 | 49 | 9 / PgUp
 
 ---
+
+<!-- _ -->
+<!-- Useless code to use occasionally:
+
+img empty:
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+💡🚧 -->
