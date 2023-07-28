@@ -241,8 +241,19 @@ so I'll help you with the table below :)
 | 48 | 8 / Up
 | 49 | 9 / PgUp
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 
+### 🔗 Other sources:
+
+[Configuration of keyboard and mouse class drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers)  
+[Keyboard key kills and remaps](https://isenselabs.com/posts/keyboard-key-kills-and-remaps-for-windows-users)  
+[All_AHK_scan_codes_and_virtual_keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs)  
+[Key Codes and Scan Codes Table](http://www.osfree.org/docs/cmdref/cmdref.2.0476.php)  
+[Keyboard-internal scancodes](https://www.scs.stanford.edu/10wi-cs140/pintos/specs/kbd/scancodes-9.html)  
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
 <!-- _ -->
 <!-- Useless code to use occasionally:
 💡🚧❗✔️⚠️🕹️🔄📜⛔📌🇮🇹💾
