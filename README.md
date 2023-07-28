@@ -66,7 +66,7 @@ What means "rebind n1":
 
 | 3A,00, | 5D,E0, |
 | --- | --- |
-| 1st part: it's the keycode of the remapping | 2nd part: the button you actually press
+| 1st part: it's the keycode of the remapping | 2nd part: keycode of the button you actually press
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
