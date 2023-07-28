@@ -1,7 +1,44 @@
 ## Keyboard ScanCodes for remapping
 
-| Code   | Keycap   | ITA layout (+ shift and altGR)   |
-| ------ | --------------- | ------ |
+TEXT
+
+---
+
+## Example: ##
+
+What means an entire code:  
+
+| 00,00,00,00, | 00,00,00,00, | 02,00,00,00, | 3A,00,5D,E0, | 00,00,00,00 |
+| --- | --- | --- | --- | --- |
+| version | flag | number of rebinds +1! | rebind n1 | final bits
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
+What means rebind n1:  
+
+| 3A,00, | 5D,E0, |
+| --- | --- |
+| 1st part: it's the keycode of the remapping | 2nd part: the button you actually press
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
+What means the single code:  
+
+5D,EO :  
+
+5D: scancode of the key  
+E0: can be 00 or E0 (or E1 for button Pause)  
+    some keys share the scancode, changing only the second part
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+---
+
+In this table, secondary code is "00" for only 2 digits, others are specified.  
+
+
+| Code   | Keycap + shift   | ITA layout (+ shift and altGR)   |
+| --- | --- | --- |
 | |
 | 1st row: |
 | 01 | Esc
@@ -17,9 +54,9 @@
 | 44 | F10
 | 57 | F11
 | 58 | F12
-| E0-37 | PrintScreen
+| 37-E0 | PrintScreen
 | 46 | ScrollLock
-| E1-45 | Pause
+| 45-E1 | Pause
 | |
 | 2nd row:
 | 29 | ` ~ | \ and vertical bar
@@ -85,33 +122,33 @@
 | |
 | 6th row:
 | 1D | LeftCtrl
-| E0-5B | LeftWin
+| 5B-E0 | LeftWin
 | 38 | LeftAlt
 | 39 | Space
-| E0-38 | RightAlt
-| E0-5C | RightWin
-| E0-5D | Menu
-| E0-1D | RightCtrl
+| 38-E0 | RightAlt
+| 5C-E0 | RightWin
+| 5D-E0 | Menu
+| 1D-E0 | RightCtrl
 | |
 | middle:
-| E0-52 | Insert
-| E0-53 | Delete (Canc)
-| E0-47 | Home
-| E0-4F | End
-| E0-49 | PageUp
-| E0-51 | PageDown
-| E0-4B | Left
-| E0-48 | Up
-| E0-50 | Down
-| E0-4D | Right
+| 52-E0 | Insert
+| 53-E0 | Delete (Canc)
+| 47-E0 | Home
+| 4F-E0 | End
+| 49-E0 | PageUp
+| 51-E0 | PageDown
+| 4B-E0 | Left
+| 48-E0 | Up
+| 50-E0 | Down
+| 4D-E0 | Right
 | |
 | KeyPad:
 | 45 | NumLock
-| E0-35 | /
+| 35-E0 | /
 | 37 | *
 | 4A | -
 | 4E | +
-| E0-1C | Enter
+| 1C-E0 | Enter
 | 53 | . / Del
 | 52 | 0 / Ins
 | 4F | 1 / End
@@ -123,3 +160,5 @@
 | 47 | 7 / Home
 | 48 | 8 / Up
 | 49 | 9 / PgUp
+
+---
