@@ -74,7 +74,7 @@ What means the single code "5D,EO":
 
 5D: scancode of the key  
 E0: can be 00 or E0 (or E1 for button Pause)  
-    some keys share the scancode, changing only the second part
+    some keys share the scancode, changing only this second part
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
