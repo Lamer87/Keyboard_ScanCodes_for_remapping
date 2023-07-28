@@ -6,30 +6,31 @@
 
 ---
 
-You can download all (this readme, the example and the remover) [here](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/archive/refs/heads/main.zip),  
-or just click on Code then Download ZIP.
+- 💡 You can download all (this readme, the example and the remover) [here 💾](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/archive/refs/heads/main.zip),  
+or just click on "Code" then "Download ZIP".
 
-You can download just the EXAMPLE file (Rebind.reg) to edit yourself [here]().  
-This one is ALREADY modified and will add the necessary "hex" value to the registry,  
+  - The EXAMPLE file (Rebind.reg) it's meant to be edited by you.  
+This file is ALREADY modified and will add the necessary "hex" value to the registry,  
 so before applying it you have to EDIT IT properly.
 
-If you want to get rid of the remapping, download [this file]() as well (remover.reg),  
-this one can be even used to create the empty hex value.
+  - If you want to get rid of the remapping, use the file "remover.reg",  
+it can be even used to create just the empty hex value.
 
-Every time you apply the values, you must AT LEAST logout and login (or restart), for the changes to take effect.
-
----
-
-How to create the value in the registry whitout the example file:  
-1- Open "C:\Windows\regedit.exe"  
-2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not Keyboard Layout**S**)  
-3- Create a new binary value here, named: "Scancode Map" (without quotes).
-
-What goes inside the binary value is described below, in the regedit file format (so not manually entering via regedit.exe).
+  - Every time you apply the values, you must AT LEAST logout and login (or restart), for the changes to take effect.
 
 ---
 
-## Example: ##
+- 📜 How to create the value in the registry whitout the example file:  
+  - 1- Open "C:\Windows\regedit.exe"  
+  - 2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not \Keyboard Layout**S**)  
+  - 3- Create a new "binary value" here, named "Scancode Map" (without quotes).
+
+- What goes inside the binary value is described below, in the regedit file format,
+so you don't have to manually enter values via regedit.exe, but just modify Rebind.reg.
+
+---
+
+## ⚠️ Example: ##
 
 ```
 Windows Registry Editor Version 5.00
@@ -70,24 +71,50 @@ What means the single code "5D,EO":
 E0: can be 00 or E0 (or E1 for button Pause)  
     some keys share the scancode, changing only the second part
 
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
+This is an example with 3 rebinds:
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E1,00,00,00,00
+```
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
+for a better demonstration view (do not use!)
+```
+"Scancode Map"=hex:
+00,00,00,00,    version
+00,00,00,00,    flag
+04,00,00,00,    rebinds number +1
+3A,00,5D,E0,    rebind n1
+3E,00,46,00,    rebind n2
+3F,00,45,E1,    rebind n3
+00,00,00,00     final bits
+```
+
+
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 ---
 
-A good tool to show keycodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
+- 🕹️ A good tool to show keycodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
 it shows what keycode (1st part) are you pressing on the keyboard.  
-Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0  
-(so I'll help you with the table below :) )
+Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0,  
+so I'll help you with the table below :)
 
 ---
 
-In this table, secondary code is always "00" when there are only 2 digits, others are specified.
+### 📌 In this table, secondary code is always "00" when there are only 2 digits, others are specified.
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-
-| Code   | Keycap + shift   | ITA layout (+ shift and altGR)   |
+| Code | Key (+ shift) | ITA layout (+ shift and altGR) |
 | --- | --- | --- |
 | |
-| 1st row: |
+| 1st Row: |
 | 01 | Esc
 | 3B | F1
 | 3C | F2
@@ -102,7 +129,7 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 | 57 | F11
 | 58 | F12
 | |
-| 2nd row:
+| 2nd Row:
 | 29 | ` ~ | \ and vertical bar
 | 02 | 1 !
 | 03 | 2 @ | "
@@ -118,7 +145,7 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 | 0D | = + | ì ^
 | 0E | Backspace
 | |
-| 3rd row:
+| 3rd Row:
 | 0F | Tab
 | 10 | Q
 | 11 | W
@@ -134,7 +161,7 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 | 1B | ] } | + * ]
 | 2B | \ and vert. bar | ù §
 | |
-| 4th row:
+| 4th Row:
 | 3A | CapsLock
 | 1E | A
 | 1F | S
@@ -149,7 +176,7 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 | 28 | ' " | à ° #
 | 1C | Enter
 | |
-| 5th row:
+| 5th Row:
 | 2A | LeftShift
 | 56 | | < >
 | 2C | Z
@@ -164,7 +191,7 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 | 35 | / ? | - _
 | 36 | RightShift
 | |
-| 6th row:
+| 6th Row:
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
 | 38 | LeftAlt
@@ -174,7 +201,7 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 | 5D-E0 | Menu
 | 1D-E0 | RightCtrl
 | |
-| middle:
+| Middle:
 | 37-E0 | PrintScreen
 | 46 | ScrollLock
 | 45-E1 | Pause
@@ -212,8 +239,8 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 
 <!-- _ -->
 <!-- Useless code to use occasionally:
+💡🚧❗✔️⚠️🕹️🔄📜⛔📌🇮🇹💾
 
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
-
-💡🚧❗✔️⚠️🕹️🔄📜⛔📌🇮🇹 -->
+ -->
