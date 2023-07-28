@@ -29,8 +29,8 @@ it can be even used to create just the empty hex value.
   - 2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not \Keyboard Layout**S**)  
   - 3- Create a new "binary value" here, named "Scancode Map" (without quotes).
 
-- What goes inside the binary value is described below, in the regedit file format,
-so you don't have to manually enter values via regedit.exe, but just modify Rebind.reg.
+- ✔️ What goes inside the binary value is described below in the regedit file format,
+so you don't have to manually enter values via regedit.exe, but just modify Rebind.reg then exec it.
 
 ---
 
