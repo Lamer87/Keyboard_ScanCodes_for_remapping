@@ -93,9 +93,6 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 | 44 | F10
 | 57 | F11
 | 58 | F12
-| 37-E0 | PrintScreen
-| 46 | ScrollLock
-| 45-E1 | Pause
 | |
 | 2nd row:
 | 29 | ` ~ | \ and vertical bar
@@ -170,15 +167,18 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 | 1D-E0 | RightCtrl
 | |
 | middle:
+| 37-E0 | PrintScreen
+| 46 | ScrollLock
+| 45-E1 | Pause
 | 52-E0 | Insert
 | 53-E0 | Delete (Canc)
 | 47-E0 | Home
 | 4F-E0 | End
 | 49-E0 | PageUp
 | 51-E0 | PageDown
-| 4B-E0 | Left
 | 48-E0 | Up
 | 50-E0 | Down
+| 4B-E0 | Left
 | 4D-E0 | Right
 | |
 | KeyPad:
@@ -208,4 +208,4 @@ In this table, secondary code is always "00" when there are only 2 digits, other
 img empty:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-💡🚧 -->
+💡🚧❗✔️⚠️🕹️🔄📜⛔📌🇮🇹 -->
