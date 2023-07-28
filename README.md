@@ -56,7 +56,7 @@ Final bits: always 8 zeroes
 
 Number of rebinds:  
 only the first 2 bits count, the value must be made up of the number of rebinds (8 bits for each one),  
-plus one for the final 8 bits (which must always be 8 zeroes).  
+plus one for the final 8 bits.  
 For example, if we want to rebind 4 keys, the value number of rebinds will be 05,00,00,00,  
 if the rebinds are 12 the value will be 13,00,00,00,
 
