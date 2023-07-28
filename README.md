@@ -1,8 +1,12 @@
-## Keyboard ScanCodes for remapping
+## Keyboard ScanCodes for remapping ⌨️
 
 ### This is a simple guide for remapping (rebinding) keyboard keys,  
-### whitout using an external tool, just the system registry.
+### whitout using a tool, just system registry.
 <!-- ### `v1.0` -->
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+---
+❗ Note: this is only for changing one key to another, it is not possible to map combinations (example CTRL+C) to a key,  
+❗ to do this you need a tool.
 
 ---
 
