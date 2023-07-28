@@ -21,8 +21,8 @@ Every time you apply the values, you must AT LEAST logout and login, for the cha
 
 How to create the value in the registry whitout the example file:  
 1- Open "C:\Windows\regedit.exe"  
-2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not Keyboard**S** Layout)  
-3- Create a new binary value here
+2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not Keyboard Layout**S**)  
+3- Create a new binary value here, name: "Scancode Map" (without quotes).
 
 What goes inside this value is described below.
 
@@ -40,9 +40,9 @@ Version: always 8 zeroes
 Flag: always 8 zeroes  
 
 Number of rebinds:  
-only the first 2 bits count, the value must be made up of the number of rebinds (8 digits for each one),  
+only the first 2 bits count, the value must be made up of the number of rebinds (8 bits for each one),  
 plus one for the final 8 bits (which must always be 8 zeroes).  
-For example, if we want to rebind 4 keys, the value will be 05,00,00,00,  
+For example, if we want to rebind 4 keys, the value number of rebinds will be 05,00,00,00,  
 if the rebinds are 12 the value will be 13,00,00,00,
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -66,8 +66,8 @@ E0: can be 00 or E0 (or E1 for button Pause)
 ---
 
 A good tool to show keycodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
-it shows what keycode (first part) are you pressing on the keyboard.  
-Example: "ScanCode=0x4F" where the keycode is 4F but you don't know if the second part is 00 or E0  
+it shows what keycode (1st part) are you pressing on the keyboard.  
+Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0  
 (so I'll help you with the table below :) )
 
 ---
