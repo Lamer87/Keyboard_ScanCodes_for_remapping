@@ -52,6 +52,7 @@ What means an entire regedit code:
 
 Version: always 8 zeroes  
 Flag: always 8 zeroes  
+Final bits: always 8 zeroes
 
 Number of rebinds:  
 only the first 2 bits count, the value must be made up of the number of rebinds (8 bits for each one),  
