@@ -5,8 +5,8 @@
 <!-- ### `v1.0` -->
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-❗ Note: this is only for changing one key to another, it is not possible to map combinations (example CTRL+C) to a key,  
-❗ to do this you need a tool.
+❗ Note: this is only for changing one key to another, it is NOT possible to map combinations  
+(example CTRL+C) to a key, to do this you need a tool.
 
 ---
 
