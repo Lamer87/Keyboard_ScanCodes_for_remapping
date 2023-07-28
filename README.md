@@ -242,6 +242,7 @@ so I'll help you with the table below :)
 | 49 | 9 / PgUp
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
 ---
 
 ### 🔗 Other sources:
@@ -253,7 +254,9 @@ so I'll help you with the table below :)
 [Keyboard-internal scancodes](https://www.scs.stanford.edu/10wi-cs140/pintos/specs/kbd/scancodes-9.html)  
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
 ---
+
 <!-- _ -->
 <!-- Useless code to use occasionally:
 💡🚧❗✔️⚠️🕹️🔄📜⛔📌🇮🇹💾
