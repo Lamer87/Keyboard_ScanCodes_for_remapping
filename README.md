@@ -106,13 +106,6 @@ Windows Registry Editor Version 5.00
 
 ---
 
-- 🕹️ A good tool to show keycodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
-it shows what keycode (1st part) are you pressing on the keyboard.  
-Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0,  
-so I'll help you with the table below :)
-
----
-
 ### 📌 In this table, secondary code is always "00" when there are only 2 digits,  
 ### others are specified.
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -243,6 +236,13 @@ so I'll help you with the table below :)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
+---
+
+- 🕹️ A good tool to show keycodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
+it shows what keycode (1st part) are you pressing on the keyboard.  
+Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 
 ### 🔗 Other sources:
