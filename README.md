@@ -249,7 +249,7 @@ Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know i
 
   - [Configuration of keyboard and mouse class drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers)  
   - [Keyboard key kills and remaps](https://isenselabs.com/posts/keyboard-key-kills-and-remaps-for-windows-users)  
-  - [All_AHK_scan_codes_and_virtual_keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs)  
+  - [All AHK scan codes and virtual keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs)  
   - [Key Codes and Scan Codes Table](http://www.osfree.org/docs/cmdref/cmdref.2.0476.php)  
   - [Keyboard-internal scancodes](https://www.scs.stanford.edu/10wi-cs140/pintos/specs/kbd/scancodes-9.html)  
   - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo)
