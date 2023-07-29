@@ -165,6 +165,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 1A | [ { | è é [
 | 1B | ] } | + * ]
 | 2B | \ and vert.bar (ANSI) | in 4th row `ù §`
+| 1C | Enter (ISO)
 | |
 | 4th Row:
 | 3A | CapsLock
