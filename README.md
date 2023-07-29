@@ -121,7 +121,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | Code | Key (+ shift) | ITA layout (ISO) | Other |
 | --- | --- | --- | --- |
 | |
-| 1st Row: |
+| 1st Row: | — | — | — |
 | 01 | Esc
 | 3B | F1
 | 3C | F2
@@ -136,7 +136,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 57 | F11
 | 58 | F12
 | |
-| 2nd Row:
+| 2nd Row: | — | — | — |
 | 29 | ` ~ | \ and vertical bar
 | 02 | 1 !
 | 03 | 2 @ | "
@@ -153,7 +153,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 7D | | | JIS layout
 | 0E | Backspace
 | |
-| 3rd Row:
+| 3rd Row: | — | — | — |
 | 0F | Tab
 | 10 | Q
 | 11 | W
@@ -170,7 +170,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 2B | \ and vert.bar (ANSI) | in 4th row `ù §` (ISO)
 | 1C | Enter (ISO)
 | |
-| 4th Row:
+| 4th Row: | — | — | — |
 | 3A | CapsLock
 | 1E | A
 | 1F | S
@@ -186,7 +186,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 2B | in 3th row `\` (ANSI) | ù § (ISO)
 | 1C | Enter (All)
 | |
-| 5th Row:
+| 5th Row: | — | — | — |
 | 2A | LeftShift
 | 56 | \ and vert.bar (ISO) | < >
 | 2C | Z
@@ -202,7 +202,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 73 | | | JIS layout
 | 36 | RightShift
 | |
-| 6th Row:
+| 6th Row: | — | — | — |
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
 | 38 | LeftAlt
@@ -215,7 +215,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 5D-E0 | Menu
 | 1D-E0 | RightCtrl
 | |
-| Middle:
+| Middle: | — | — | — |
 | 37-E0 | PrintScreen
 | 46 | ScrollLock
 | 45-E1 | Pause
@@ -230,7 +230,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 4B-E0 | Left
 | 4D-E0 | Right
 | |
-| KeyPad:
+| KeyPad: | — | — | — |
 | 45 | NumLock
 | 35-E0 | /
 | 37 | *
