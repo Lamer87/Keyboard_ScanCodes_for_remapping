@@ -1,8 +1,7 @@
 ## Keyboard ScanCodes for remapping ⌨️
 
 ### This is a simple guide for remapping (rebinding) keyboard keys
-### whitout using a tool, just the system registry.
-`v1.1` added JIS layout key codes.
+### whitout using a tool, just the system registry. `v1.2`
 
 - [**Key ScanCode table**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go to)
 
@@ -271,6 +270,8 @@ Note 2: the vertical bar `|` cannot be included in the table, because it's used 
 ---
 
 - 💡 If you want to contribute, you can report any error in [Issues](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/issues) or new keys in [Discussions](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/discussions).
+- `v1.1` added JIS layout key codes.
+- `v1.2` added other functions key codes.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
