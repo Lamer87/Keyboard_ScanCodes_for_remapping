@@ -1,6 +1,6 @@
 ## Keyboard ScanCodes for remapping ⌨️
 
-### This is a simple guide for remapping (rebinding) keyboard keys,  
+### This is a simple guide for remapping (rebinding) keyboard keys  
 ### whitout using a tool, just system registry.
 <!-- ### `v1.0` -->
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -12,7 +12,7 @@
 
 ---
 
-- 💾 You can download all (this readme, the example and the remover) [here 💾](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/archive/refs/heads/main.zip),  
+- 💾 You can download the package (readme, example and remover) [here 💾](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/archive/refs/heads/main.zip),  
 or just click on "Code" then "Download ZIP".
 
   - The EXAMPLE file (Rebind.reg) it's meant to be edited by you.  
@@ -52,12 +52,15 @@ What means an entire regedit code:
 | 1st 8 bits | 2nd 8 bits | 3rd 8 bits | 4th 8 bits | 5th 8 bits
 | version | flag | number of rebinds +1! | rebind n1 | final bits (null)
 
+Each pair of zeros is separated by a "," except for the last pair which ends without it.
+
 Version: always 8 zeroes  
 Flag: always 8 zeroes  
 Final bits: always 8 zeroes
 
 Number of rebinds:  
-only the first 2 bits count, the value must be made up of the number of rebinds (8 bits for each one),  
+only the first 2 bits count as a number (examples: 02 if 2, 05 if 5, 13 if 13),  
+the value must be made up of the number of rebinds (that are 8 bits for each one),  
 plus one for the final 8 bits.  
 For example, if we want to rebind 4 keys, the value number of rebinds will be 05,00,00,00,  
 if the rebinds are 12 the value will be 13,00,00,00,
@@ -76,7 +79,7 @@ What means a single code like "5D,EO":
 
 5D: scancode of the key  
 E0: can be 00 or E0 (or E1 for button Pause)  
-    some keys share the scancode, changing only this second part
+    some keys share the scancode, changing only this second part.
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
@@ -89,7 +92,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-📜 For a better demonstration view (do not use!)
+📜 Just for a better view (do not use!)
 ```
 "Scancode Map"=hex:
 00,00,00,00,    version
@@ -106,12 +109,12 @@ E0: can be 00 or E0 (or E1 for button Pause)
 
 ---
 
-## 📌 In this table:  
-### secondary code is always "00" when there are only 2 digits,  
+## 📌 Key ScanCode table:  
+### the secondary code is always "00" when there are only 2 digits,  
 ### otherwise it's specified.
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-| Code | Key (+ shift) | ITA layout (+ shift and altGR) |
+| Code | Key (+ shift) | ITA layout (+ shift + altGR) |
 | --- | --- | --- |
 | |
 | 1st Row: |
@@ -240,7 +243,13 @@ E0: can be 00 or E0 (or E1 for button Pause)
 
 ---
 
-- 🕹️ A good tool to show keycodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
+- 💡 If you want to contribute, you can report any error in [Issues](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/issues) or new keys in [Discussions](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/discussions).
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+
+---
+
+- 🕹️ A good tool to show scancodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
 it shows what keycode (1st part) are you pressing on the keyboard.  
 Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0,  
 so just take a look at the table when needed.
