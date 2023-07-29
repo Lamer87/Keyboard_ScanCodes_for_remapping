@@ -111,7 +111,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 ---
 
 ## 📌 Key ScanCode table:  
-### the secondary code is always "00" when there are only 2 digits,  
+### the secondary code is always "00" when there are only 2 digits in "Code",  
 ### otherwise it's specified.
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
