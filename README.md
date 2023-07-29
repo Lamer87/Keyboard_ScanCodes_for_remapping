@@ -2,7 +2,10 @@
 
 ### This is a simple guide for remapping (rebinding) keyboard keys  
 ### whitout using a tool, just the system registry.
-<!-- ### `v1.0` -->
+- `v1.1` added JIS layout key codes.
+
+- [**Key ScanCode table**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table)
+
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
 - ❗ Note 1: this is only for changing one key to another, it is NOT possible to map combinations  
