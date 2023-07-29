@@ -5,10 +5,10 @@
 <!-- ### `v1.0` -->
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
-❗ Note 1: this is only for changing one key to another, it is NOT possible to map combinations  
+- ❗ Note 1: this is only for changing one key to another, it is NOT possible to map combinations  
 (example CTRL+C) to a key, to do this you need a tool.
 
-💡 Note 2: you can find [other sources](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-other-sources) at the bottom of this page.
+- 💡 Note 2: you can find [other sources](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-other-sources) at the bottom of this page.
 
 ---
 
