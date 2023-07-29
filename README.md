@@ -178,7 +178,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 26 | L
 | 27 | ; : | ò ç @
 | 28 | ' " | à ° #
-| 2B | in 3th row | ù §
+| 2B | in 3th row (\) | ù §
 | 1C | Enter
 | |
 | 5th Row:
