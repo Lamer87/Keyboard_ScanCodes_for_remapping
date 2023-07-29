@@ -4,7 +4,7 @@
 ### whitout using a tool, just the system registry.
 - `v1.1` added JIS layout key codes.
 
-- [**Key ScanCode table** (go to)](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table)
+- [**Key ScanCode table**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go to)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 ---
