@@ -163,7 +163,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 19 | P
 | 1A | [ { | è é [
 | 1B | ] } | + * ]
-| 2B | \ and vert. bar | in 4th row (ù §)
+| 2B | \ and vert.bar (ANSI) | in 4th row `ù §`
 | |
 | 4th Row:
 | 3A | CapsLock
@@ -178,12 +178,12 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 26 | L
 | 27 | ; : | ò ç @
 | 28 | ' " | à ° #
-| 2B | in 3th row (\) | ù §
+| 2B | in 3th row `\` | ù § (ISO)
 | 1C | Enter
 | |
 | 5th Row:
 | 2A | LeftShift
-| 56 | | < >
+| 56 | \ and vert.bar (ISO) | < >
 | 2C | Z
 | 2D | X
 | 2E | C
@@ -239,6 +239,8 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 47 | 7 / Home
 | 48 | 8 / Up
 | 49 | 9 / PgUp
+
+note: the vertical bar `|` cannot be included, because it is used to generate the table.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
