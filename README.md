@@ -87,7 +87,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 📜 This is an example with 3 rebinds (do not use!):
 ```
 "Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E1,00,00,00,00
-                  |  version  |   flag    |  number   | 1st rebind| 2nd rebind| 3rd rebind| null bits |
+                  |  version  |   flag    |reb. number| 1st rebind| 2nd rebind| 3rd rebind| null bits |
                                                       | these 4 lines count for the number of rebinds |
 ```
 
@@ -98,7 +98,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 "Scancode Map"=hex:
 00,00,00,00,    version
 00,00,00,00,    flag
-04,00,00,00,    rebinds +1
+04,00,00,00,    number of rebinds +1
 3A,00,5D,E0,    rebind n1   --\
 3E,00,46,00,    rebind n2      \
 3F,00,45,E1,    rebind n3      / these 4 lines count towards the total number of rebinds (even final bits)
