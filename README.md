@@ -163,7 +163,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 19 | P
 | 1A | [ { | è é [
 | 1B | ] } | + * ]
-| 2B | \ and vert. bar
+| 2B | \ and vert. bar | in 4th row (ù §)
 | |
 | 4th Row:
 | 3A | CapsLock
@@ -178,7 +178,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 26 | L
 | 27 | ; : | ò ç @
 | 28 | ' " | à ° #
-| 2B | | ù §
+| 2B | in 3th row | ù §
 | 1C | Enter
 | |
 | 5th Row:
