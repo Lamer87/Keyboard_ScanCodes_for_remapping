@@ -150,7 +150,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 0B | 0 ) | =
 | 0C | - _ | ' ?
 | 0D | = + | ì ^
-| 7D | | | JIS layout
+| 7D | | | \ and vert.bar (JIS)
 | 0E | Backspace
 | |
 | 3rd Row: | — | — | — |
@@ -199,17 +199,17 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 33 | , ;
 | 34 | . :
 | 35 | / ? | - _
-| 73 | | | JIS layout
+| 73 | | | / _ (JIS)
 | 36 | RightShift
 | |
 | 6th Row: | — | — | — |
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
 | 38 | LeftAlt
-| 7B | | | JIS layout
+| 7B | | | japkey1 (JIS)
 | 39 | Space
-| 79 | | | JIS layout
-| 70 | | | JIS layout
+| 79 | | | japkey2 (JIS)
+| 70 | | | japkey3 (JIS)
 | 38-E0 | RightAlt
 | 5C-E0 | RightWin
 | 5D-E0 | Menu
