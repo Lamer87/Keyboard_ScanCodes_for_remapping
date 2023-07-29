@@ -1,8 +1,8 @@
 ## Keyboard ScanCodes for remapping ⌨️
 
-### This is a simple guide for remapping (rebinding) keyboard keys  
+### This is a simple guide for remapping (rebinding) keyboard keys
 ### whitout using a tool, just the system registry.
-- `v1.1` added JIS layout key codes.
+`v1.1` added JIS layout key codes.
 
 - [**Key ScanCode table**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go to)
 
