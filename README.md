@@ -252,7 +252,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
 These other keys need to be tested, they may not work properly:
-| keys | Function |
+| Key | Function |
 | --- | --- |
 | |
 | 5E-E0 | Power
