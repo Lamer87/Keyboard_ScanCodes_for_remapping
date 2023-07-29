@@ -240,7 +240,8 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 48 | 8 / Up
 | 49 | 9 / PgUp
 
-note: the vertical bar `|` cannot be included, because it is used to generate the table.
+
+Note: the vertical bar `|` cannot be included, because it's used to generate the table.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
