@@ -287,13 +287,13 @@ so just take a look at the table when needed.
 
 - ### 🔗 Other sources:
 
-  - [Configuration of keyboard and mouse class drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers)  
-  - [Keyboard key kills and remaps](https://isenselabs.com/posts/keyboard-key-kills-and-remaps-for-windows-users)  
-  - [All AHK scan codes and virtual keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs)  
-  - [Key Codes and Scan Codes Table](http://www.osfree.org/docs/cmdref/cmdref.2.0476.php)  
-  - [Keyboard-internal scancodes](https://www.scs.stanford.edu/10wi-cs140/pintos/specs/kbd/scancodes-9.html) [look for "X(Set 2)"]  
+  - [Configuration of keyboard and mouse class drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers) (Microsoft knowledge)
+  - [Keyboard key kills and remaps](https://isenselabs.com/posts/keyboard-key-kills-and-remaps-for-windows-users) (tool for easy remap using registry)
+  - [All AHK scan codes and virtual keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs) (keycodes list)
+  - [Key Codes and Scan Codes Table](http://www.osfree.org/docs/cmdref/cmdref.2.0476.php) (keycodes list)
+  - [Keyboard-internal scancodes](https://www.scs.stanford.edu/10wi-cs140/pintos/specs/kbd/scancodes-9.html) (keycodes list: look for "X(Set 2)")
   - [ISO vs ANSI layouts](https://thegamingsetup.com/iso-vs-ansi) ; [ANSI Vs ISO Vs JIS layouts](https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis) ; [Japanese keyboards (JIS layout)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html)
-  - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo)
+  - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo) (test if your remap is working)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
