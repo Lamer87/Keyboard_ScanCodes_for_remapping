@@ -251,7 +251,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-These other keys need to be tested, they may not work properly
+These other keys need to be tested, they may not work properly:
 | keys | Function |
 | --- | --- |
 | |
@@ -263,7 +263,8 @@ These other keys need to be tested, they may not work properly
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
-Note: the vertical bar `|` cannot be included, because it's used to generate the table.
+Note 1: other keys (like JIS layout) don't work if you don't have the right language set to Windows (like japanase).
+Note 2: the vertical bar `|` cannot be included in the table, because it's used to generate it.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
 
