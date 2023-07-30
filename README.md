@@ -118,7 +118,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 ### otherwise it's specified.
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
-| **Code** | **Key** (+ shift) | **ITA layout** (ISO) | **Other** |
+| Code | Key (+ shift) | ITA layout (ISO) | Other |
 | --- | --- | --- | --- |
 | |
 | **1st Row:** | — | — | — |
@@ -253,7 +253,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 
 <details><summary>CLICK HERE to show other keys that need to be tested, they may not work properly.</summary><p>
 
-| **Code** | **Function** |
+| Code | Function |
 | --- | --- |
 | 64 | F13
 | 65 | F14
