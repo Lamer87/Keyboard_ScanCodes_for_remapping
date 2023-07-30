@@ -7,7 +7,7 @@
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-- [**📌 Key ScanCode table**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go directly to)
+- [**📌 Key ScanCode TABLE**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go directly to)
 
 - ‼️ This is only for changing one key to another, it is NOT possible to map combinations  
 (example CTRL+C) to a key, to do this you need a tool like AutoHotKey.
