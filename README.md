@@ -259,7 +259,6 @@ These other keys need to be tested, they may not work properly:
 | 5F-E0 | Sleep
 | 63-E0 | Wake
 | 54 | Alt+SysRq
-| FF | non-US-1
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
