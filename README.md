@@ -169,7 +169,7 @@ What means a single code like "`5D,EO`":
 | 19 | P
 | 1A | [ { | è é [
 | 1B | ] } | + * ]
-| 2B | \ &#124; (ANSI) | in 4th row "ù §" (ISO)
+| 2B | \ &#124; (ANSI) | `4th row` "ù §" (ISO)
 | 1C | Enter (ISO) | Invio
 | |
 | **4th Row:** | **—** | **—** | **—** |
@@ -185,7 +185,7 @@ What means a single code like "`5D,EO`":
 | 26 | L
 | 27 | ; : | ò ç @
 | 28 | ' " | à ° #
-| 2B | in 3th row "\ &#124;" (ANSI) | ù § (ISO)
+| 2B | `3th row` "\ &#124;" (ANSI) | ù § (ISO)
 | 1C | Enter (All layouts) | Invio
 | |
 | **5th Row:** | **—** | **—** | **—** |
