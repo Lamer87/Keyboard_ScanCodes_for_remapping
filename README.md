@@ -274,7 +274,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | — | —
 | 21-E0 | Calculator
 | 6C-E0 | Mail
-| 6D-E0 | Media Sel.
+| 6D-E0 | Media Select
 | 11-E0 | Messenger
 | 6B-E0 | My Computer
 | — | —
