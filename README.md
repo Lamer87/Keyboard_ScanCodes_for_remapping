@@ -38,6 +38,8 @@ it can be even used to create just the empty hex value.
 - ✔️ What goes inside the binary value is described below in the regedit file format,
 so you don't have to manually enter values via regedit.exe, but just modify Rebind.reg then exec it.
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+
 ---
 
 ## ⚠️ Example: ##
