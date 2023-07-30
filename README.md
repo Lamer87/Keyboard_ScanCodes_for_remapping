@@ -139,7 +139,7 @@ What means a single code like "`5D,EO`":
 | 58 | F12
 | |
 | **2nd Row:** | **—** | **—** | **—** |
-| 29 | ` ~ | \ e barra vert.
+| 29 | ` ~ | \ (e barra verticale)
 | 02 | 1 !
 | 03 | 2 @ | "
 | 04 | 3 # | £
