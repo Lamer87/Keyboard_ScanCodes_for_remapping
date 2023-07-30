@@ -317,7 +317,7 @@ so just take a look at the table when needed.
 - 🕹️ Another good one is [SharpKeys tool](https://github.com/randyrants/sharpkeys),  
 uses the **same method** as this guide (regedit hex) but with a graphical interface.  
 Remember, do NOT to use the "Pause" button! the tool recognizes it, but then it doesn't work either way:  
-when "pause" is used to press another key, or when another key is used to press "pause".
+when "Pause" is used to press another key, or when another key is used to press "Pause".
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
