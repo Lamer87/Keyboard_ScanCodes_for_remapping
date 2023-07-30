@@ -169,7 +169,7 @@ What means a single code like "`5D,EO`":
 | 19 | P
 | 1A | [ { | è é [
 | 1B | ] } | + * ]
-| 2B | \ &#124; (ANSI) | in 4th row `ù §` (ISO)
+| 2B | \ &#124; (ANSI) | in 4th row "ù §" (ISO)
 | 1C | Enter (ISO) | Invio
 | |
 | **4th Row:** | **—** | **—** | **—** |
@@ -185,7 +185,7 @@ What means a single code like "`5D,EO`":
 | 26 | L
 | 27 | ; : | ò ç @
 | 28 | ' " | à ° #
-| 2B | in 3th row `\ &#124;` (ANSI) | ù § (ISO)
+| 2B | in 3th row "\ &#124;" (ANSI) | ù § (ISO)
 | 1C | Enter (All layouts) | Invio
 | |
 | **5th Row:** | **—** | **—** | **—** |
@@ -294,7 +294,6 @@ What means a single code like "`5D,EO`":
 
 - Note 1: "**Pause**" button can't be used/remapped because it's a multiple bits hex (need a tool like AutoHotKey).
 - Note 2: other keys (like JIS) may not work if you haven't set the correct language (like japanase).
-- Note 3: the vertical bar `|` cannot be included in the table, because it's used to generate it.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
