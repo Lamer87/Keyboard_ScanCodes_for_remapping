@@ -253,7 +253,7 @@ What means a single code like "`5D,EO`":
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
-<details><summary>CLICK HERE to show other keys that need to be tested, they may not work properly (especially in games).</summary><p>
+<details><summary>**CLICK HERE** to show **other keys** that need to be tested, they may not work properly (especially in games).</summary><p>
 
 | Code | Function |
 | --- | --- |
