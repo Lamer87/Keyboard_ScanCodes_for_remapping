@@ -121,7 +121,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | Code | Key (+ shift) | ITA layout (ISO) | Other |
 | --- | --- | --- | --- |
 | |
-| **1st Row:** | — | — | — |
+| **1st Row:** | **—** | **—** | **—** |
 | 01 | Esc
 | 3B | F1
 | 3C | F2
