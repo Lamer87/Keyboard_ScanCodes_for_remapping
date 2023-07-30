@@ -58,11 +58,11 @@ What means an entire regedit code:
 | 1st 8 bits | 2nd 8 bits | 3rd 8 bits | 4th 8 bits | 5th 8 bits
 | version | flag | number of rebinds +1! | rebind n1 | final bits (null)
 
-Each pair of zeros is separated by a "," except for the last pair which ends without it.
+Each PAIR of zeroes is separated by a "," except for the last pair which ends without it.
 
-Version: always 8 zeroes  
-Flag: always 8 zeroes  
-Final bits: always 8 zeroes
+Version: always 8 zeroes.  
+Flag: always 8 zeroes.  
+Final bits: always 8 zeroes.
 
 Number of rebinds:  
 only the first 2 bits count as a number (examples: 02 if 2, 05 if 5, 13 if 13),  
