@@ -137,7 +137,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 58 | F12
 | |
 | **2nd Row:** | — | — | — |
-| 29 | ` ~ | \ and vertical bar
+| 29 | ` ~ | \ e barra vert.
 | 02 | 1 !
 | 03 | 2 @ | "
 | 04 | 3 # | £
