@@ -309,7 +309,7 @@ What means a single code like "`5D,EO`":
 
 ---
 
-- 🕹️ A good tool to show scancodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
+- 🕹️ A good tool to show scancodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/),  
 it shows what keycode are you pressing on the keyboard (1st part only).  
 Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0,  
 so just take a look at the table when needed.
