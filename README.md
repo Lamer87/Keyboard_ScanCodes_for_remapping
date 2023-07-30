@@ -184,7 +184,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 27 | ; : | ò ç @
 | 28 | ' " | à ° #
 | 2B | in 3th row `\` (ANSI) | ù § (ISO)
-| 1C | Enter (All)
+| 1C | Enter (All layouts)
 | |
 | **5th Row:** | — | — | — |
 | 2A | LeftShift
