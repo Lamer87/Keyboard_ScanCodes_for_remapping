@@ -150,7 +150,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 0B | 0 ) | =
 | 0C | - _ | ' ?
 | 0D | = + | ì ^
-| 7D | | | \ and vert.bar (JIS n²)
+| 7D | | | \ and vert.bar (JIS note²)
 | 0E | Backspace
 | |
 | 3rd Row: | — | — | — |
@@ -199,17 +199,17 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 33 | , ;
 | 34 | . :
 | 35 | / ? | - _
-| 73 | | | / _ (JIS n²)
+| 73 | | | / _ (JIS note²)
 | 36 | RightShift
 | |
 | 6th Row: | — | — | — |
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
 | 38 | LeftAlt
-| 7B | | | japkey1 (JIS n²)
+| 7B | | | japkey1 (JIS note²)
 | 39 | Space
-| 79 | | | japkey2 (JIS n²)
-| 70 | | | japkey3 (JIS n²)
+| 79 | | | japkey2 (JIS note²)
+| 70 | | | japkey3 (JIS note²)
 | 38-E0 | RightAlt
 | 5C-E0 | RightWin
 | 5D-E0 | Menu
@@ -218,7 +218,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | Middle: | — | — | — |
 | 37-E0 | PrintScreen
 | 46 | ScrollLock
-| 45-E1-1D | Pause **!can't be used! n¹**
+| 45-E1-1D | Pause **!see note¹!**
 | 52-E0 | Insert
 | 53-E0 | Delete (Canc)
 | 47-E0 | Home
