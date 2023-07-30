@@ -3,7 +3,7 @@
 ### This is a simple guide for remapping (rebinding) keyboard keys
 ### whitout using a tool, just the system registry (in hexadecimal).
 
-`v1.3` - for ISO, ANSI and JIS layouts
+`v1.4` - for ISO, ANSI and JIS layouts
 
 - [**Key ScanCode table**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go to)
 
@@ -297,6 +297,7 @@ These other keys need to be tested, they may not work properly:
 - `v1.1` added JIS layout key codes.
 - `v1.2` added other functions key codes.
 - `v1.3` Corrected button "Pause", it can't be used without a tool for remapping.
+- `v1.4` added other functions key codes.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
