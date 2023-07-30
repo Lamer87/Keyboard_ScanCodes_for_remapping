@@ -136,7 +136,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 57 | F11
 | 58 | F12
 | |
-| **2nd Row:** | — | — | — |
+| **2nd Row:** | **—** | **—** | **—** |
 | 29 | ` ~ | \ e barra vert.
 | 02 | 1 !
 | 03 | 2 @ | "
@@ -153,7 +153,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 7D | | | \ (JIS note²)
 | 0E | Backspace
 | |
-| **3rd Row:** | — | — | — |
+| **3rd Row:** | **—** | **—** | **—** |
 | 0F | Tab
 | 10 | Q
 | 11 | W
@@ -170,7 +170,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 2B | \ and vert.bar (ANSI) | in 4th row `ù §` (ISO)
 | 1C | Enter (ISO) | Invio
 | |
-| **4th Row:** | — | — | — |
+| **4th Row:** | **—** | **—** | **—** |
 | 3A | CapsLock | Bloc Maiusc
 | 1E | A
 | 1F | S
@@ -186,7 +186,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 2B | in 3th row `\` (ANSI) | ù § (ISO)
 | 1C | Enter (All layouts) | Invio
 | |
-| **5th Row:** | — | — | — |
+| **5th Row:** | **—** | **—** | **—** |
 | 2A | LeftShift | Maiusc sx
 | 56 | \ and vert.bar (ISO) | < >
 | 2C | Z
@@ -202,7 +202,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 73 | | | / _ (JIS note²)
 | 36 | RightShift | Maiusc dx
 | |
-| **6th Row:** | — | — | — |
+| **6th Row:** | **—** | **—** | **—** |
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
 | 38 | LeftAlt
@@ -215,7 +215,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 5D-E0 | Menu
 | 1D-E0 | RightCtrl
 | |
-| **Middle:** | — | — | — |
+| **Middle:** | **—** | **—** | **—** |
 | 37-E0 | PrintScreen | Stamp
 | 46 | ScrollLock | Bloc scorr
 | 45-E1-1D | Pause: **see note¹❗** | Pausa: note¹
@@ -230,7 +230,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 4B-E0 | Left
 | 4D-E0 | Right
 | |
-| **KeyPad:** | — | — | — |
+| **KeyPad:** | **—** | **—** | **—** |
 | 45 | NumLock
 | 35-E0 | /
 | 37 | *
@@ -267,17 +267,17 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 6D | F22
 | 6E | F23
 | 6F | F24
-| — | —
+| **—** | **—**
 | 5E-E0 | Power
 | 5F-E0 | Sleep
 | 63-E0 | Wake
-| — | —
+| **—** | **—**
 | 21-E0 | Calculator
 | 6C-E0 | Mail
 | 6D-E0 | Media Select
 | 11-E0 | Messenger
 | 6B-E0 | My Computer
-| — | —
+| **—** | **—**
 | 22-E0 | Play/Pause
 | 24-E0 | Stop
 | 19-E0 | Next track
