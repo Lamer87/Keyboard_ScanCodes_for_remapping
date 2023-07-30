@@ -168,10 +168,10 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 1A | [ { | è é [
 | 1B | ] } | + * ]
 | 2B | \ and vert.bar (ANSI) | in 4th row `ù §` (ISO)
-| 1C | Enter (ISO)
+| 1C | Enter (ISO) | Invio
 | |
 | **4th Row:** | — | — | — |
-| 3A | CapsLock
+| 3A | CapsLock | Bloc Maiusc
 | 1E | A
 | 1F | S
 | 20 | D
@@ -184,10 +184,10 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 27 | ; : | ò ç @
 | 28 | ' " | à ° #
 | 2B | in 3th row `\` (ANSI) | ù § (ISO)
-| 1C | Enter (All layouts)
+| 1C | Enter (All layouts) | Invio
 | |
 | **5th Row:** | — | — | — |
-| 2A | LeftShift
+| 2A | LeftShift | Maiusc sx
 | 56 | \ and vert.bar (ISO) | < >
 | 2C | Z
 | 2D | X
@@ -200,7 +200,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 34 | . :
 | 35 | / ? | - _
 | 73 | | | / _ (JIS note²)
-| 36 | RightShift
+| 36 | RightShift | Maiusc dx
 | |
 | **6th Row:** | — | — | — |
 | 1D | LeftCtrl
@@ -216,9 +216,9 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 1D-E0 | RightCtrl
 | |
 | **Middle:** | — | — | — |
-| 37-E0 | PrintScreen
-| 46 | ScrollLock
-| 45-E1-1D | Pause: **see note¹❗**
+| 37-E0 | PrintScreen | Stamp
+| 46 | ScrollLock | Bloc scorr
+| 45-E1-1D | Pause: **see note¹❗** | Pausa: note¹
 | 52-E0 | Insert
 | 53-E0 | Delete | Canc
 | 47-E0 | Home | Inizio
