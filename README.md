@@ -120,8 +120,10 @@ What means a single code like "`5D,EO`":
 ### otherwise it's specified !
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
+<div align="center">
+
 | Code | Key (+ shift) | ITA layout (ISO) | Other |
-| --- | --- | --- | --- |
+|:--- |:--- |:--- |:--- |
 | |
 | **1st Row:** | **—** | **—** | **—** |
 | 01 | Esc
@@ -251,12 +253,14 @@ What means a single code like "`5D,EO`":
 | 48 | 8 / Up
 | 49 | 9 / PgUp
 
+</div>
+
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 <details><summary>CLICK HERE to show other keys that need to be tested. They may not work properly, especially in games.</summary><p>
 
 | Code | Function |
-| --- | --- |
+|:--- |:--- |
 | 64 | F13
 | 65 | F14
 | 66 | F15
