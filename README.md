@@ -82,15 +82,14 @@ What means "rebind n1":
 What means a single code like "5D,EO":  
 
 5D: scancode of the key  
-E0: can be 00 or E0 (or E1 for button Pause)  
-    some keys share the scancode, changing only this second part.
+E0: can be 00 or E0; some keys share the scancode, changing only this second part.
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 📜 This is an example with 3 rebinds (do not use!):
 ```
-"Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E1,00,00,00,00
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E0,00,00,00,00
                   |  version  |   flag    |reb. number| 1st rebind| 2nd rebind| 3rd rebind| null bits |
                                                       | these 4 lines count for the number of rebinds |
 ```
@@ -105,7 +104,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 04,00,00,00,    number of rebinds +1
 3A,00,5D,E0,    rebind n1   --\
 3E,00,46,00,    rebind n2      \
-3F,00,45,E1,    rebind n3      / these 4 lines count towards the total number of rebinds (even final bits)
+3F,00,45,E0,    rebind n3      / these 4 lines count towards the total number of rebinds (even final bits)
 00,00,00,00     final bits  --/
 ```
 
@@ -219,7 +218,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | Middle: | — | — | — |
 | 37-E0 | PrintScreen
 | 46 | ScrollLock
-| 45-E1 | Pause
+| 45-E1-1D | Pause **can't be used**
 | 52-E0 | Insert
 | 53-E0 | Delete (Canc)
 | 47-E0 | Home
@@ -264,8 +263,9 @@ These other keys need to be tested, they may not work properly:
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
-Note 1: other keys (like JIS layout) don't work if you don't have the right language set to Windows (like japanase).
-Note 2: the vertical bar `|` cannot be included in the table, because it's used to generate it.
+- Note 1: button "Pause" can't be used/remapped because it's a multiple bits hex (you need to use a tool like AutoHotKey).
+- Note 2: other keys (like JIS layout) don't work if you don't have the right language set to Windows (like japanase).
+- Note 3: the vertical bar `|` cannot be included in the table, because it's used to generate it.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
