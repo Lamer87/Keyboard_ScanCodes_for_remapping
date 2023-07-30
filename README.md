@@ -117,7 +117,7 @@ What means a single code like "`5D,EO`":
 
 ## 📌 Key ScanCode table:  
 ### the secondary code is always "00" when there are only 2 digits in "Code",  
-### otherwise it's specified.
+### otherwise it's specified !
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 | Code | Key (+ shift) | ITA layout (ISO) | Other |
