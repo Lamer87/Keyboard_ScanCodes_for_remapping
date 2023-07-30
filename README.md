@@ -263,7 +263,7 @@ These other keys need to be tested, they may not work properly:
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
-- Note 1: button "**Pause**" can't be used/remapped because it's a multiple bits hex (need a tool like AutoHotKey).
+- Note 1: "**Pause**" button can't be used/remapped because it's a multiple bits hex (need a tool like AutoHotKey).
 - Note 2: other keys (like JIS layout) don't work if you don't have the right language set to Windows (like japanase).
 - Note 3: the vertical bar `|` cannot be included in the table, because it's used to generate it.
 
