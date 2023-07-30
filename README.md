@@ -309,7 +309,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 ---
 
 - 🕹️ A good tool to show scancodes for your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/)  
-it shows what keycode (1st part) are you pressing on the keyboard.  
+it shows what keycode are you pressing on the keyboard (1st part only).  
 Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0,  
 so just take a look at the table when needed.
 
