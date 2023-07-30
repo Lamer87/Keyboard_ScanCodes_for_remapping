@@ -1,4 +1,4 @@
-## Keyboard ScanCodes for remapping ⌨️
+## [Keyboard ScanCodes for remapping ⌨️](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ### This is a simple guide for remapping (rebinding) keyboard keys
 ### whitout using a tool, just the system registry (in hexadecimal).
