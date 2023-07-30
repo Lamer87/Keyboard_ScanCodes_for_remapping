@@ -251,10 +251,10 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
-These other keys need to be tested, they may not work properly:
-| Key | Function |
+<details><summary>CLICK HERE to show other keys that need to be tested, they may not work properly</summary><p>
+
+| **Code** | **Function** |
 | --- | --- |
-| |
 | 64 | F13
 | 65 | F14
 | 66 | F15
@@ -267,14 +267,17 @@ These other keys need to be tested, they may not work properly:
 | 6D | F22
 | 6E | F23
 | 6F | F24
+| — | —
 | 5E-E0 | Power
 | 5F-E0 | Sleep
 | 63-E0 | Wake
+| — | —
 | 21-E0 | Calculator
 | 6C-E0 | Mail
 | 6D-E0 | Media Sel.
 | 11-E0 | Messenger
 | 6B-E0 | My Computer
+| — | —
 | 22-E0 | Play/Pause
 | 24-E0 | Stop
 | 19-E0 | Next track
@@ -282,6 +285,8 @@ These other keys need to be tested, they may not work properly:
 | 30-E0 | Volume up
 | 2E-E0 | Volume down
 | 20-E0 | Mute
+
+</p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
