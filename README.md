@@ -152,7 +152,7 @@ What means a single code like "`5D,EO`":
 | 0B | 0 ) | =
 | 0C | - _ | ' ?
 | 0D | = + | ì ^
-| 7D | | | \ (JIS note²)
+| 7D | | | \ &#124; (JIS note²)
 | 0E | Backspace
 | |
 | **3rd Row:** | **—** | **—** | **—** |
