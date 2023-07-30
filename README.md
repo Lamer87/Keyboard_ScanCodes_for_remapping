@@ -1,11 +1,13 @@
 ## Keyboard ScanCodes for remapping ⌨️
 
 ### This is a simple guide for remapping (rebinding) keyboard keys
-### whitout using a tool, just the system registry. `v1.2`
+### whitout using a tool, just the system registry (in hexadecimal).
+
+`v1.2` - for ISO, ANSI and JIS layouts
 
 - [**Key ScanCode table**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go to)
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 - ❗ Note 1: this is only for changing one key to another, it is NOT possible to map combinations  
 (example CTRL+C) to a key, to do this you need a tool.
@@ -67,7 +69,7 @@ plus one for the final 8 bits.
 For example, if we want to rebind 4 keys, the value number of rebinds will be 05,00,00,00,  
 if the rebinds are 12 the value will be 13,00,00,00,
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 What means "rebind n1":  
 
@@ -75,7 +77,7 @@ What means "rebind n1":
 | --- | --- |
 | 1st part: it's the keycode of the remapping | 2nd part: keycode of the button you actually press
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 What means a single code like "5D,EO":  
 
@@ -84,7 +86,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
     some keys share the scancode, changing only this second part.
 
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 📜 This is an example with 3 rebinds (do not use!):
 ```
@@ -93,7 +95,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
                                                       | these 4 lines count for the number of rebinds |
 ```
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 📜 Just for a better view (do not use!)
 ```
@@ -108,14 +110,14 @@ E0: can be 00 or E0 (or E1 for button Pause)
 ```
 
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ---
 
 ## 📌 Key ScanCode table:  
 ### the secondary code is always "00" when there are only 2 digits in "Code",  
 ### otherwise it's specified.
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 | Code | Key (+ shift) | ITA layout (ISO) | Other |
 | --- | --- | --- | --- |
@@ -248,7 +250,7 @@ E0: can be 00 or E0 (or E1 for button Pause)
 | 48 | 8 / Up
 | 49 | 9 / PgUp
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 These other keys need to be tested, they may not work properly:
 | Key | Function |
@@ -260,12 +262,12 @@ These other keys need to be tested, they may not work properly:
 | 54 | Alt+SysRq
 | FF | non-US-1
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 Note 1: other keys (like JIS layout) don't work if you don't have the right language set to Windows (like japanase).
 Note 2: the vertical bar `|` cannot be included in the table, because it's used to generate it.
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ---
 
@@ -273,7 +275,7 @@ Note 2: the vertical bar `|` cannot be included in the table, because it's used 
 - `v1.1` added JIS layout key codes.
 - `v1.2` added other functions key codes.
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ---
 
@@ -282,7 +284,7 @@ it shows what keycode (1st part) are you pressing on the keyboard.
 Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0,  
 so just take a look at the table when needed.
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 
 - ### 🔗 Other sources:
@@ -295,7 +297,7 @@ so just take a look at the table when needed.
   - [ISO vs ANSI layouts](https://thegamingsetup.com/iso-vs-ansi) ; [ANSI Vs ISO Vs JIS layouts](https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis) ; [Japanese keyboards (JIS layout)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html) (keyboard layouts)
   - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo) (test if your remap is working)
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ---
 
@@ -305,5 +307,5 @@ so just take a look at the table when needed.
 []() <- empty link
 
 img empty:
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Space_Engineers_DLC_unlocker#space-engineers-dlc-unlocker)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
  -->
