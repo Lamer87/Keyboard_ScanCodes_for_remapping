@@ -259,6 +259,8 @@ What means a single code like "`5D,EO`":
 
 <details><summary>CLICK HERE to show other keys that need to be tested. They may not work properly, especially in games.</summary><p>
 
+<div align="center">
+
 | Code | Function |
 |:--- |:--- |
 | 64 | F13
@@ -291,6 +293,8 @@ What means a single code like "`5D,EO`":
 | 30-E0 | Volume up
 | 2E-E0 | Volume down
 | 20-E0 | Mute
+
+</div>
 
 </p></details>
 
