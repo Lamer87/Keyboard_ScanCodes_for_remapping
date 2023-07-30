@@ -150,7 +150,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 0B | 0 ) | =
 | 0C | - _ | ' ?
 | 0D | = + | ì ^
-| 7D | | | \ and vert.bar (JIS note²)
+| 7D | | | \ (JIS note²)
 | 0E | Backspace
 | |
 | 3rd Row: | — | — | — |
