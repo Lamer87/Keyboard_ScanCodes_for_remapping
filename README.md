@@ -3,7 +3,7 @@
 ### This is a simple guide for remapping (rebinding) keyboard keys
 ### whitout using a tool, just the system registry (in hexadecimal).
 
-`v1.2` - for ISO, ANSI and JIS layouts
+`v1.3` - for ISO, ANSI and JIS layouts
 
 - [**Key ScanCode table**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go to)
 
@@ -150,7 +150,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 0B | 0 ) | =
 | 0C | - _ | ' ?
 | 0D | = + | ì ^
-| 7D | | | \ and vert.bar (JIS)
+| 7D | | | \ and vert.bar (JIS n²)
 | 0E | Backspace
 | |
 | 3rd Row: | — | — | — |
@@ -199,17 +199,17 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 33 | , ;
 | 34 | . :
 | 35 | / ? | - _
-| 73 | | | / _ (JIS)
+| 73 | | | / _ (JIS n²)
 | 36 | RightShift
 | |
 | 6th Row: | — | — | — |
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
 | 38 | LeftAlt
-| 7B | | | japkey1 (JIS)
+| 7B | | | japkey1 (JIS n²)
 | 39 | Space
-| 79 | | | japkey2 (JIS)
-| 70 | | | japkey3 (JIS)
+| 79 | | | japkey2 (JIS n²)
+| 70 | | | japkey3 (JIS n²)
 | 38-E0 | RightAlt
 | 5C-E0 | RightWin
 | 5D-E0 | Menu
@@ -218,7 +218,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | Middle: | — | — | — |
 | 37-E0 | PrintScreen
 | 46 | ScrollLock
-| 45-E1-1D | Pause ! **can't be used** !
+| 45-E1-1D | Pause **!can't be used! n¹**
 | 52-E0 | Insert
 | 53-E0 | Delete (Canc)
 | 47-E0 | Home
@@ -263,7 +263,7 @@ These other keys need to be tested, they may not work properly:
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
-- Note 1: button "Pause" can't be used/remapped because it's a multiple bits hex (you need to use a tool like AutoHotKey).
+- Note 1: button "Pause" can't be used/remapped because it's a multiple bits hex (need a tool like AutoHotKey).
 - Note 2: other keys (like JIS layout) don't work if you don't have the right language set to Windows (like japanase).
 - Note 3: the vertical bar `|` cannot be included in the table, because it's used to generate it.
 
@@ -274,6 +274,7 @@ These other keys need to be tested, they may not work properly:
 - 💡 If you want to contribute, you can report any error in [Issues](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/issues) or new keys in [Discussions](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/discussions).
 - `v1.1` added JIS layout key codes.
 - `v1.2` added other functions key codes.
+- `v1.3` Corrected button "Pause", it can't be used without a tool for remapping.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
@@ -304,7 +305,7 @@ so just take a look at the table when needed.
 
 <!-- _ -->
 <!-- Useless code to use occasionally:
-💡🚧❗✔️⚠️🕹️🔄📜⛔📌🇮🇹💾
+💡🚧❗✔️⚠️🕹️🔄📜⛔📌🇮🇹💾(¹²)
 []() <- empty link
 
 img empty:
