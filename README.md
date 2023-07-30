@@ -120,7 +120,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 
 | **Code** | **Key** (+ shift) | **ITA layout** (ISO) | **Other** |
 | --- | --- | --- | --- |
-| — | — | — | — |
+| |
 | **1st Row:** | — | — | — |
 | 01 | Esc
 | 3B | F1
@@ -135,7 +135,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 44 | F10
 | 57 | F11
 | 58 | F12
-| — | — | — | — |
+| |
 | **2nd Row:** | — | — | — |
 | 29 | ` ~ | \ and vertical bar
 | 02 | 1 !
@@ -152,7 +152,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 0D | = + | ì ^
 | 7D | | | \ (JIS note²)
 | 0E | Backspace
-| — | — | — | — |
+| |
 | **3rd Row:** | — | — | — |
 | 0F | Tab
 | 10 | Q
@@ -169,7 +169,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 1B | ] } | + * ]
 | 2B | \ and vert.bar (ANSI) | in 4th row `ù §` (ISO)
 | 1C | Enter (ISO)
-| — | — | — | — |
+| |
 | **4th Row:** | — | — | — |
 | 3A | CapsLock
 | 1E | A
@@ -185,7 +185,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 28 | ' " | à ° #
 | 2B | in 3th row `\` (ANSI) | ù § (ISO)
 | 1C | Enter (All)
-| — | — | — | — |
+| |
 | **5th Row:** | — | — | — |
 | 2A | LeftShift
 | 56 | \ and vert.bar (ISO) | < >
@@ -201,7 +201,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 35 | / ? | - _
 | 73 | | | / _ (JIS note²)
 | 36 | RightShift
-| — | — | — | — |
+| |
 | **6th Row:** | — | — | — |
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
@@ -214,7 +214,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 5C-E0 | RightWin
 | 5D-E0 | Menu
 | 1D-E0 | RightCtrl
-| — | — | — | — |
+| |
 | **Middle:** | — | — | — |
 | 37-E0 | PrintScreen
 | 46 | ScrollLock
@@ -229,7 +229,7 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 50-E0 | Down
 | 4B-E0 | Left
 | 4D-E0 | Right
-| — | — | — | — |
+| |
 | **KeyPad:** | — | — | — |
 | 45 | NumLock
 | 35-E0 | /
