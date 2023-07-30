@@ -81,10 +81,10 @@ What means "rebind n1":
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-What means a single code like "5D,EO":  
+What means a single code like "`5D,EO`":  
 
-5D: scancode of the key  
-E0: can be 00 or E0; some keys share the scancode, changing only this second part.
+`5D`: scancode of the key  
+`E0`: can be 00 or E0; some keys share the scancode, changing only this second part.
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
