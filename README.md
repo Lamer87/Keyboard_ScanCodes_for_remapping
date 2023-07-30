@@ -290,7 +290,7 @@ so just take a look at the table when needed.
 
 - ### 🔗 Other sources:
 
-  - [SharpKeys tool](https://github.com/randyrants/sharpkeys) (easy remapping tool, same metod of this guide but with a GUI, do not use "Pause" button!)
+  - [SharpKeys tool](https://github.com/randyrants/sharpkeys) (easy remapping tool, same metod of this guide but with a GUI, don't use "Pause" button!)
   - [Configuration of keyboard and mouse class drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers) (Microsoft knowledge)
   - [All AHK scan codes and virtual keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs) (keycodes list)
   - [Key Codes and Scan Codes Table](http://www.osfree.org/docs/cmdref/cmdref.2.0476.php) (keycodes list)
