@@ -255,10 +255,33 @@ These other keys need to be tested, they may not work properly:
 | Key | Function |
 | --- | --- |
 | |
+| 64 | F13
+| 65 | F14
+| 66 | F15
+| 67 | F16
+| 68 | F17
+| 69 | F18
+| 6A | F19
+| 6B | F20
+| 6C | F21
+| 6D | F22
+| 6E | F23
+| 6F | F24
 | 5E-E0 | Power
 | 5F-E0 | Sleep
 | 63-E0 | Wake
-| 54 | Alt+SysRq
+| 21-E0 | Calculator
+| 6C-E0 | Mail
+| 6D-E0 | Media Sel.
+| 11-E0 | Messenger
+| 6B-E0 | My Computer
+| 22-E0 | Play/Pause
+| 24-E0 | Stop
+| 19-E0 | Next track
+| 10-E0 | Prev track
+| 30-E0 | Volume up
+| 2E-E0 | Volume down
+| 20-E0 | Mute
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
