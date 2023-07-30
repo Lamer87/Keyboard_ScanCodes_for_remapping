@@ -220,7 +220,7 @@ What means a single code like "`5D,EO`":
 | **Middle:** | **—** | **—** | **—** |
 | 37-E0 | PrintScreen | Stamp
 | 46 | ScrollLock | Bloc scorr
-| 45-E1-1D | Pause: **see note¹❗** | Pausa: **vedi note¹❗**
+| 45-E1-1D | Pause **[see note¹❗]** | Pausa **[vedi note¹❗]**
 | 52-E0 | Insert
 | 53-E0 | Delete | Canc
 | 47-E0 | Home | Inizio
