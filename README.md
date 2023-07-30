@@ -139,7 +139,7 @@ What means a single code like "`5D,EO`":
 | 58 | F12
 | |
 | **2nd Row:** | **—** | **—** | **—** |
-| 29 | ` ~ | \ (e barra verticale)
+| 29 | ` ~ | \ &#124;
 | 02 | 1 !
 | 03 | 2 @ | "
 | 04 | 3 # | £
@@ -169,7 +169,7 @@ What means a single code like "`5D,EO`":
 | 19 | P
 | 1A | [ { | è é [
 | 1B | ] } | + * ]
-| 2B | \ and vert.bar (ANSI) | in 4th row `ù §` (ISO)
+| 2B | \ &#124; (ANSI) | in 4th row `ù §` (ISO)
 | 1C | Enter (ISO) | Invio
 | |
 | **4th Row:** | **—** | **—** | **—** |
@@ -185,12 +185,12 @@ What means a single code like "`5D,EO`":
 | 26 | L
 | 27 | ; : | ò ç @
 | 28 | ' " | à ° #
-| 2B | in 3th row `\` (ANSI) | ù § (ISO)
+| 2B | in 3th row `\ &#124;` (ANSI) | ù § (ISO)
 | 1C | Enter (All layouts) | Invio
 | |
 | **5th Row:** | **—** | **—** | **—** |
 | 2A | LeftShift | Maiusc sx
-| 56 | \ and vert.bar (ISO) | < >
+| 56 | \ &#124; (ISO) | < >
 | 2C | Z
 | 2D | X
 | 2E | C
