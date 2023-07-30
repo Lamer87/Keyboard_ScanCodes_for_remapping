@@ -206,10 +206,10 @@ E0: can be 00 or E0; some keys share the scancode, changing only this second par
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
 | 38 | LeftAlt
-| 7B | | | japkey1 (JIS note²)
+| 7B | | | jap (JIS note²)
 | 39 | Space
-| 79 | | | japkey2 (JIS note²)
-| 70 | | | japkey3 (JIS note²)
+| 79 | | | jap (JIS note²)
+| 70 | | | jap (JIS note²)
 | 38-E0 | RightAlt
 | 5C-E0 | RightWin
 | 5D-E0 | Menu
