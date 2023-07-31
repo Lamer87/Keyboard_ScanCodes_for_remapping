@@ -338,7 +338,7 @@ when "Pause" is used to press another key, or when another key is used to press 
   - [ISO vs ANSI layouts](https://thegamingsetup.com/iso-vs-ansi) ; [ANSI Vs ISO Vs JIS layouts](https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis) ; [Japanese keyboards (JIS layout)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html) (keyboard layouts)
 
   - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo) (test if your remap is working)
-  - [Keyboard Ghosting Demonstration](https://drakeirving.github.io/MultiKeyDisplay/) (another good testing page)
+  - [Keyboard Ghosting Demonstration](https://drakeirving.github.io/MultiKeyDisplay/) (another good testing page, by [drakeirving](https://github.com/drakeirving))
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
