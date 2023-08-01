@@ -338,9 +338,9 @@ when "Pause" is used to press another key, or when another key is used to press 
   - [All AHK scan codes and virtual keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs/edit#gid=824607963) (AutoHotKey keycodes list with scancodes)
   - [Keyboard-internal scancodes](https://www.scs.stanford.edu/10wi-cs140/pintos/specs/kbd/scancodes-9.html) (keycodes list: look for "X(Set 2)" in the table)
 
-  - Keyboard tests:
-    - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo) (test if your remap is working)
-    - [Keyboard Ghosting Demonstration](https://drakeirving.github.io/MultiKeyDisplay/) (another good testing page, by [drakeirving](https://github.com/drakeirving))
+  - Keyboard tests (test if your remap is working):
+    - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo)
+    - [Keyboard Ghosting Demonstration](https://drakeirving.github.io/MultiKeyDisplay/)
     - [Keyboard test for different layouts](https://stendec.io/yakt/)
 
   - Keyboard layouts:
