@@ -125,7 +125,7 @@ What means a single code like "`5D,EO`":
 | Code | Key (+ shift) | ITA layout (ISO) | Other |
 |:--- |:--- |:--- |:--- |
 | |
-| **1st Row:** | **—————————** | **—————————** | **——————** |
+| **1st Row:** | **—————————** | **—————————** | **—————————** |
 | 01 | Esc
 | 3B | F1
 | 3C | F2
@@ -140,7 +140,7 @@ What means a single code like "`5D,EO`":
 | 57 | F11
 | 58 | F12
 | |
-| **2nd Row:** | **—————————** | **—————————** | **——————** |
+| **2nd Row:** | **—————————** | **—————————** | **—————————** |
 | 29 | ` ~ | \ &#124;
 | 02 | 1 !
 | 03 | 2 @ | "
@@ -157,7 +157,7 @@ What means a single code like "`5D,EO`":
 | 7D | | | \ &#124; (JIS note²)
 | 0E | Backspace
 | |
-| **3rd Row:** | **—————————** | **—————————** | **——————** |
+| **3rd Row:** | **—————————** | **—————————** | **—————————** |
 | 0F | Tab
 | 10 | Q
 | 11 | W
@@ -174,7 +174,7 @@ What means a single code like "`5D,EO`":
 | 2B | \ &#124; (ANSI) | `4th row` "ù §" (ISO)
 | 1C | Enter (ISO) | Invio
 | |
-| **4th Row:** | **—————————** | **—————————** | **——————** |
+| **4th Row:** | **—————————** | **—————————** | **—————————** |
 | 3A | CapsLock | Bloc Maiusc
 | 1E | A
 | 1F | S
@@ -190,7 +190,7 @@ What means a single code like "`5D,EO`":
 | 2B | `3th row` "\ &#124;" (ANSI) | ù § (ISO)
 | 1C | Enter (All layouts) | Invio
 | |
-| **5th Row:** | **—————————** | **—————————** | **——————** |
+| **5th Row:** | **—————————** | **—————————** | **—————————** |
 | 2A | LeftShift | Maiusc sx
 | 56 | \ &#124; (ISO) | < >
 | 2C | Z
@@ -206,7 +206,7 @@ What means a single code like "`5D,EO`":
 | 73 | | | / _ (ABNT; JIS note²)
 | 36 | RightShift | Maiusc dx
 | |
-| **6th Row:** | **—————————** | **—————————** | **——————** |
+| **6th Row:** | **—————————** | **—————————** | **—————————** |
 | 1D | LeftCtrl
 | 5B-E0 | LeftWin
 | 38 | LeftAlt
@@ -219,7 +219,7 @@ What means a single code like "`5D,EO`":
 | 5D-E0 | Menu
 | 1D-E0 | RightCtrl
 | |
-| **Middle:** | **—————————** | **—————————** | **——————** |
+| **Middle:** | **—————————** | **—————————** | **—————————** |
 | 37-E0 | PrintScreen | Stamp
 | 46 | ScrollLock | Bloc scorr
 | 45-E1-1D | Pause **[see note¹❗]** | Pausa **[vedi note¹❗]**
@@ -234,7 +234,7 @@ What means a single code like "`5D,EO`":
 | 4B-E0 | Left
 | 4D-E0 | Right
 | |
-| **KeyPad:** | **—————————** | **—————————** | **——————** |
+| **KeyPad:** | **—————————** | **—————————** | **—————————** |
 | 45 | NumLock
 | 35-E0 | /
 | 37 | *
