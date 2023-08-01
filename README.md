@@ -3,7 +3,7 @@
 ### This is a simple guide for remapping (rebinding) keyboard keys
 ### whitout using a tool, just the system registry (in hexadecimal).
 
-`v1.5` - For ISO, ANSI and JIS layouts.
+`v1.5` - For ISO, ANSI, ABNT and JIS layouts.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
