@@ -306,6 +306,17 @@ What means a single code like "`5D,EO`":
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
+<!-- ---
+
+### View of a complete layout
+It's an ABNT, just missing 3 JIS keys near the spacebar.  
+Only 2 digits = "00" secondary:
+
+[<img src="https://i.ibb.co/8b928xb/keyboard-scancodes-img.jpg" width="1000"/>](https://i.ibb.co/8b928xb/keyboard-scancodes-img.jpg)
+Source: [kbdlayout.info](https://kbdlayout.info/kbdbr/scancodes)
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+-->
 ---
 
 - 💡 If you want to contribute, you can report any error in [Issues](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/issues) or new keys in [Discussions](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/discussions).
