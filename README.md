@@ -309,7 +309,8 @@ What means a single code like "`5D,EO`":
 ---
 
 ### View of a complete layout (all together)
-Only 2 digits = "00" secondary (E0 specified):
+Only 2 digits = "00" secondary; "E0" specified.  
+Orange = layout variations.
 
 [<img src="https://i.ibb.co/17BTZqL/keyboard-scancodes-img-V3-1.jpg" width="1000"/>](https://i.ibb.co/17BTZqL/keyboard-scancodes-img-V3-1.jpg)
 Source: [kbdlayout.info](https://kbdlayout.info/kbdbr/scancodes)
