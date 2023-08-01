@@ -323,6 +323,7 @@ Source: [kbdlayout.info](https://kbdlayout.info/kbdbr/scancodes)
 
 <details><summary>Changelog (click to show):</summary><p>
 
+  - `v1.0` first guide/list.
   - `v1.1` added JIS layout key codes.
   - `v1.2` added other functions key codes.
   - `v1.3` Corrected button "Pause"; can't be used or remapped without a tool like AutoHotKey.
