@@ -3,7 +3,7 @@
 ### This is a simple guide for remapping (rebinding) keyboard keys
 ### whitout using a tool, just the system registry (in hexadecimal).
 
-`v1.4` - For ISO, ANSI and JIS layouts.
+`v1.5` - For ISO, ANSI and JIS layouts.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
@@ -203,7 +203,7 @@ What means a single code like "`5D,EO`":
 | 33 | , ;
 | 34 | . :
 | 35 | / ? | - _
-| 73 | | | / _ (JIS note²)
+| 73 | | | / _ (ABNT; JIS note²)
 | 36 | RightShift | Maiusc dx
 | |
 | **6th Row:** | **—————————** | **—————————** | **——————** |
@@ -240,6 +240,7 @@ What means a single code like "`5D,EO`":
 | 37 | *
 | 4A | -
 | 4E | +
+| 7E | | | . (ABNT)
 | 1C-E0 | Enter
 | 53 | . / Del
 | 52 | 0 / Ins
@@ -263,9 +264,9 @@ What means a single code like "`5D,EO`":
 
 | Code | Function |
 |:--- |:--- |
-| 64 | F13
-| 65 | F14
-| 66 | F15
+| 64 | F13 / PrintScreen
+| 65 | F14 / ScrollLock
+| 66 | F15 / Pause
 | 67 | F16
 | 68 | F17
 | 69 | F18
@@ -312,6 +313,7 @@ What means a single code like "`5D,EO`":
   - `v1.2` added other functions key codes.
   - `v1.3` Corrected button "Pause"; can't be used or remapped without a tool like AutoHotKey.
   - `v1.4` added other functions key codes.
+  - `v1.5` added ABNT layout key codes.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
@@ -335,10 +337,17 @@ when "Pause" is used to press another key, or when another key is used to press 
   - [Configuration of keyboard and mouse class drivers](https://learn.microsoft.com/en-us/windows-hardware/drivers/hid/keyboard-and-mouse-class-drivers) (Microsoft knowledge)
   - [All AHK scan codes and virtual keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs/edit#gid=824607963) (AutoHotKey keycodes list with scancodes)
   - [Keyboard-internal scancodes](https://www.scs.stanford.edu/10wi-cs140/pintos/specs/kbd/scancodes-9.html) (keycodes list: look for "X(Set 2)" in the table)
-  - [ISO vs ANSI layouts](https://thegamingsetup.com/iso-vs-ansi) ; [ANSI Vs ISO Vs JIS layouts](https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis) ; [Japanese keyboards (JIS layout)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html) (keyboard layouts)
 
-  - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo) (test if your remap is working)
-  - [Keyboard Ghosting Demonstration](https://drakeirving.github.io/MultiKeyDisplay/) (another good testing page, by [drakeirving](https://github.com/drakeirving))
+  - Keyboard tests:
+    - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo) (test if your remap is working)
+    - [Keyboard Ghosting Demonstration](https://drakeirving.github.io/MultiKeyDisplay/) (another good testing page, by [drakeirving](https://github.com/drakeirving))
+    - [Keyboard test for different layouts](https://stendec.io/yakt/)
+
+  - Keyboard layouts:
+    - [ISO vs ANSI](https://thegamingsetup.com/iso-vs-ansi)
+    - [ANSI vs ISO vs JIS](https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis)
+    - [Japanese keyboards (JIS)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html)
+    - [Portuguese (Brazil ABNT-2)](https://kbdlayout.info/kbdbr/scancodes)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
