@@ -9,6 +9,8 @@
 ---
 - [**📌 Key ScanCode TABLE**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go directly to)
 
+- [📌 **Displayed keyboard** with ScanCodes](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/blob/main/README.md#-graph-of-a-complete-layout-all-together)
+
 - ‼️ This is only for changing one key to another, it is NOT possible to map combinations  
 (example CTRL+C) to a key, to do this you need a tool like [AutoHotKey](https://www.autohotkey.com/download/).
 
