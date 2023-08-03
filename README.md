@@ -107,8 +107,8 @@ What means a single code like "`5D,EO`":
 00,00,00,00,    flag
 04,00,00,00,    number of rebinds +1
 3A,00,5D,E0,    rebind n1   --\
-3E,00,46,00,    rebind n2      \
-3F,00,45,E0,    rebind n3      / these 4 lines count towards the total number of rebinds (even final bits)
+3E,00,46,00,    rebind n2      \ these 4 lines count towards the
+3F,00,45,E0,    rebind n3      / total number of rebinds (even final bits)
 00,00,00,00     final bits  --/
 ```
 
