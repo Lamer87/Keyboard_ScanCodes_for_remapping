@@ -10,7 +10,7 @@
 - [**📌 Key ScanCode TABLE**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go directly to)
 
 - ‼️ This is only for changing one key to another, it is NOT possible to map combinations  
-(example CTRL+C) to a key, to do this you need a tool like AutoHotKey.
+(example CTRL+C) to a key, to do this you need a tool [like AutoHotKey](https://www.autohotkey.com/download/).
 
 - 💡 You can find [other sources and tools](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-other-sources) at the bottom of this page.
 
