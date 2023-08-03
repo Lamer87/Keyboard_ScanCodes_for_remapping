@@ -62,11 +62,11 @@ What means an entire regedit code:
 
 Each PAIR of zeroes is separated by a "," except for the last pair which ends without it.
 
-Version: always 8 zeroes.  
-Flag: always 8 zeroes.  
-Final bits: always 8 zeroes.
+`Version`: always 8 zeroes.  
+`Flag`: always 8 zeroes.  
+`Final bits`: always 8 zeroes.
 
-Number of rebinds:  
+`Number of rebinds`:  
 only the first 2 bits count as a number (examples: 02 if 2, 05 if 5, 13 if 13),  
 the value must be made up of the number of rebinds (that are 8 bits for each one),  
 plus one for the final 8 bits.  
@@ -75,7 +75,7 @@ if the rebinds are 12 the value will be 13,00,00,00,
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-What means "rebind n1":  
+What means "`rebind n1`":  
 
 | 3A,00, | 5D,E0, |
 | --- | --- |
