@@ -321,7 +321,7 @@ Orange = layout variations.
 [<img src="https://i.ibb.co/17BTZqL/keyboard-scancodes-img-V3-1.jpg" width="1000"/>](https://i.ibb.co/17BTZqL/keyboard-scancodes-img-V3-1.jpg)
 Source: [kbdlayout.info](https://kbdlayout.info/kbdbr/scancodes)
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="200"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ---
 ### 🕹️ Tools
