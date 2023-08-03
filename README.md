@@ -91,7 +91,7 @@ if the rebinds are 12 the value will be 13,00,00,00,
 What means a single scancode like "`5D,EO`":  
 
 `5D`: this first couple it's the scancode of the key.  
-`E0`: this second couple can be 00 or E0; some keys share the scancode (first couple), changing only this part.
+`E0`: this second couple can be 00 or E0; some keys have the same first couple, changing only this part.
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
