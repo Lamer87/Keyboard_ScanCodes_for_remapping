@@ -102,14 +102,14 @@ hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E0,00,0
 ---
 📜 Same as above with a better view (do not use in a reg file!)
 ```
-"Scancode Map"=hex:
-00,00,00,00,    version
-00,00,00,00,    flag
-04,00,00,00,    number of rebinds +1
-3A,00,5D,E0,    rebind n1   --\
-3E,00,46,00,    rebind n2      \ these 4 lines count towards the
-3F,00,45,E0,    rebind n3      / total number of rebinds (even final bits)
-00,00,00,00     final bits  --/
+hex:
+00,00,00,00,  =  version
+00,00,00,00,  =  flag
+04,00,00,00,  =  number of rebinds +1
+3A,00,5D,E0,  =  rebind n1   --\
+3E,00,46,00,  =  rebind n2      \ these 4 lines count towards the
+3F,00,45,E0,  =  rebind n3      / total number of rebinds (even final bits)
+00,00,00,00   =  final bits  --/
 ```
 
 
