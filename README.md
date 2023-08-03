@@ -318,30 +318,14 @@ Source: [kbdlayout.info](https://kbdlayout.info/kbdbr/scancodes)
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ---
+### 🕹️ Tools
 
-💡 If you want to contribute, you can report any error in [Issues](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/issues) or new keys in [Discussions](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/discussions).
-
-<details><summary>Changelog (click to show):</summary><p>
-
-  - `v1.0` first guide/list.
-  - `v1.1` added JIS layout key codes.
-  - `v1.2` added other functions key codes.
-  - `v1.3` Corrected button "Pause"; can't be used or remapped without a tool like AutoHotKey.
-  - `v1.4` added other functions key codes.
-  - `v1.5` added ABNT layout key codes.
-
-</p></details>
-
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
-
----
-
-- 🕹️ A good tool to **show scancodes** of your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/),  
+- ⌨️ A good tool to **show scancodes** of your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/),  
 it shows what keycode are you pressing on the keyboard (1st part only).  
 Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0,  
 so just take a look at the table when needed.
 
-- 🕹️ Another good one is [SharpKeys tool](https://github.com/randyrants/sharpkeys),  
+- ⌨️ Another good one for **easy remapping** is [SharpKeys tool](https://github.com/randyrants/sharpkeys),  
 uses the **same method** as this guide (regedit hex) but with a graphical interface.  
 Remember, do NOT to use the "Pause" button! the tool recognizes it, but then it doesn't work either way:  
 when "Pause" is used to press another key, or when another key is used to press "Pause".
@@ -355,16 +339,37 @@ when "Pause" is used to press another key, or when another key is used to press 
   - [All AHK scan codes and virtual keys](https://docs.google.com/spreadsheets/d/1GSj0gKDxyWAecB3SIyEZ2ssPETZkkxn67gdIwL1zFUs/edit#gid=824607963) (AutoHotKey keycodes list with scancodes)
   - [Keyboard-internal scancodes](https://www.scs.stanford.edu/10wi-cs140/pintos/specs/kbd/scancodes-9.html) (keycodes list: look for "X(Set 2)" in the table)
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+
   - Keyboard tests (test if your remap is working):
     - [Keyboard ghosting interactive demonstration](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo)
     - [Keyboard Ghosting Demonstration](https://drakeirving.github.io/MultiKeyDisplay/)
     - [Keyboard test for different layouts](https://stendec.io/yakt/)
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
   - Keyboard layouts:
     - [ISO vs ANSI](https://thegamingsetup.com/iso-vs-ansi)
     - [ANSI vs ISO vs JIS](https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis)
     - [Japanese (JIS)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html)
     - [Portuguese / Brazilian (ABNT-2)](https://kbdlayout.info/kbdbr/scancodes)
+
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+
+---
+
+💡 If you want to contribute, you can report any error in [Issues](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/issues) or new keys in [Discussions](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/discussions).
+
+<details><summary>Changelog (click to show):</summary><p>
+
+  - `v1.0` first guide/list.
+  - `v1.1` added JIS layout key codes.
+  - `v1.2` added other functions key codes.
+  - `v1.3` Corrected button "Pause"; can't be used or remapped without a tool like AutoHotKey.
+  - `v1.4` added other functions key codes.
+  - `v1.5` added ABNT layout key codes.
+
+</p></details>
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
