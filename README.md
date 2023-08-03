@@ -100,7 +100,7 @@ What means a single code like "`5D,EO`":
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-📜 Just for a better view (do not use in a reg file!)
+📜 Same as above with a better view (do not use in a reg file!)
 ```
 "Scancode Map"=hex:
 00,00,00,00,    version
