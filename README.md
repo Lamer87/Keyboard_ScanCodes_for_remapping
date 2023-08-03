@@ -53,10 +53,12 @@ Windows Registry Editor Version 5.00
 "Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,3A,00,5D,E0,00,00,00,00
 ```
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+---
 What means an entire regedit code:  
 
 | 00,00,00,00, | 00,00,00,00, | 02,00,00,00, | 3A,00,5D,E0, | 00,00,00,00 |
-| --- | --- | --- | --- | --- |
+|:--- |:--- |:--- |:--- |:--- |
 | 1st 8 bits | 2nd 8 bits | 3rd 8 bits | 4th 8 bits | 5th 8 bits
 | version | flag | number of rebinds +1! | rebind n1 | final bits (null)
 
@@ -89,7 +91,7 @@ What means a single code like "`5D,EO`":
 `E0`: this second couple can be 00 or E0; some keys share the scancode (first couple), changing only this part.
 
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 📜 This is an example with 3 rebinds (do not use in a reg file!):
 ```
@@ -310,7 +312,7 @@ hex:
 
 ---
 
-### View of a complete layout (all together)
+### 📌 Graph of a complete layout (all together)
 Secondary code: only 2 digits = "00", instead "E0" is specified.  
 Orange = layout variations.
 
