@@ -18,6 +18,7 @@
 
 - 💡 You can find [other sources here](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-other-sources).
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
 
 - 💾 You can download the package (readme, example and remover) [here 💾](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping/archive/refs/heads/main.zip)  
@@ -32,6 +33,8 @@ it can be even used to create just the empty hex value.
 
   - Every time you apply the values, you must AT LEAST logout and login (or restart), for the changes to take effect.
 
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+
 ---
 
 - 📜 How to manually create the value in the registry:  
@@ -42,7 +45,7 @@ it can be even used to create just the empty hex value.
 - ✔️ What goes inside the binary value is described below in the regedit file format,
 so you don't have to manually enter values via regedit.exe, but just edit Rebind.reg with notepad, then exec it.
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
+[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ---
 
@@ -62,13 +65,17 @@ What means an entire regedit code:
 | 00,00,00,00, | 00,00,00,00, | 02,00,00,00, | 3A,00,5D,E0, | 00,00,00,00 |
 |:--- |:--- |:--- |:--- |:--- |
 | 1st 8 bits | 2nd 8 bits | 3rd 8 bits | 4th 8 bits | 5th 8 bits
-| version | flag | number of rebinds +1! | rebind n1 | final bits (null)
+| Version | Flag | Number of rebinds +1! | Rebind n1 | Final bits (null)
 
-Each PAIR of zeroes is separated by a "," except for the last pair which ends without it.
+Each PAIR of zeroes is separated by a comma (`,`) except for the last pair which ends without.
 
 `Version`: always 8 zeroes.  
+
 `Flag`: always 8 zeroes.  
-`Final bits`: always 8 zeroes.
+
+`Rebind n1`:  
+3A,00, = 1st part: it's the keycode of the remapping.  
+5D,E0, = 2nd part: keycode of the button you actually press.
 
 `Number of rebinds`:  
 only the first 2 bits count as a number (examples: 02 if 2, 05 if 5, 13 if 13),  
@@ -77,17 +84,11 @@ plus one for the final 8 bits.
 For example, if we want to rebind 4 keys, the value number of rebinds will be 05,00,00,00,  
 if the rebinds are 12 the value will be 13,00,00,00,
 
-[<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
----
-What means "`rebind n1`":  
-
-| 3A,00, | 5D,E0, |
-| --- | --- |
-| 1st part: it's the keycode of the remapping | 2nd part: keycode of the button you actually press
+`Final bits`: always 8 zeroes.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-What means a single code like "`5D,EO`":  
+What means a single scancode like "`5D,EO`":  
 
 `5D`: this first couple it's the scancode of the key.  
 `E0`: this second couple can be 00 or E0; some keys share the scancode (first couple), changing only this part.
@@ -95,7 +96,7 @@ What means a single code like "`5D,EO`":
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-📜 This is an example with 3 rebinds (do not use in a reg file!):
+📜 This is just an explanation of a reg with 3 rebinds (do not use in a reg file!):
 ```
 hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E0,00,00,00,00
    |  version  |   flag    |reb. number| 1st rebind| 2nd rebind| 3rd rebind| null bits |
@@ -104,7 +105,7 @@ hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E0,00,0
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-📜 Same as above with a better view (do not use in a reg file!)
+📜 Same as above with a better vertical view (do not use in a reg file!)
 ```
 hex:
 00,00,00,00,  =  version
