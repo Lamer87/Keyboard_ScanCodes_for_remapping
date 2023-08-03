@@ -14,7 +14,7 @@
 
 - 🕹️ You can find [useful tools here](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#%EF%B8%8F-tools).
 
-- 💡 You can find [other sources](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-other-sources) at the bottom of this page.
+- 💡 You can find [other sources here](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-other-sources).
 
 ---
 
