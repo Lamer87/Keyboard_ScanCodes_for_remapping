@@ -363,8 +363,8 @@ when "Pause" is used to press another key, or when another key is used to press 
   - Keyboard layouts:
     - [ISO vs ANSI](https://thegamingsetup.com/iso-vs-ansi)
     - [ANSI vs ISO vs JIS](https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis)
-    - [Japanese keyboards (JIS)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html)
-    - [Portuguese (Brazil ABNT-2)](https://kbdlayout.info/kbdbr/scancodes)
+    - [Japanese (JIS)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html)
+    - [Portuguese / Brazilian (ABNT-2)](https://kbdlayout.info/kbdbr/scancodes)
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
