@@ -93,9 +93,9 @@ What means a single code like "`5D,EO`":
 ---
 📜 This is an example with 3 rebinds (do not use in a reg file!):
 ```
-"Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E0,00,00,00,00
-                  |  version  |   flag    |reb. number| 1st rebind| 2nd rebind| 3rd rebind| null bits |
-                                                      | these 4 lines count for the number of rebinds |
+hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E0,00,00,00,00
+   |  version  |   flag    |reb. number| 1st rebind| 2nd rebind| 3rd rebind| null bits |
+                                       | these 4 lines count for the number of rebinds |
 ```
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
