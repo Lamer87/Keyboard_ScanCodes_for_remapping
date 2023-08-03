@@ -105,7 +105,7 @@ hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E0,00,0
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-📜 Same as above with a better vertical view (do not use in a reg file!)
+📜 Same as above with a vertical view (do not use in a reg file!)
 ```
 hex:
 00,00,00,00,  =  version
