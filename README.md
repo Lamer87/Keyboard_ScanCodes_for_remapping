@@ -355,7 +355,7 @@ Remember! do NOT use the "Pause" button: the tool recognizes it but then it does
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
-  - Keyboard layouts:
+  - Keyboard layouts explained:
     - [ISO vs ANSI](https://thegamingsetup.com/iso-vs-ansi)
     - [ANSI vs ISO vs JIS](https://mechkeys.com/blogs/guide/understanding-different-physical-layouts-for-keyboards-ansi-vs-iso-vs-jis)
     - [Japanese (JIS)](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-8.html)
