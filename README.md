@@ -319,7 +319,7 @@ hex:
 ---
 
 ### 📌 Graph of a complete layout (all together)
-Secondary code: if you see only 2 digits it's "00", if otherwise "E0" is specified.  
+Secondary code: if you see only 2 digits it's "00", otherwise "E0" is specified.  
 Orange = layout variations.
 
 [<img src="https://i.ibb.co/17BTZqL/keyboard-scancodes-img-V3-1.jpg" width="1000"/>](https://i.ibb.co/17BTZqL/keyboard-scancodes-img-V3-1.jpg)
