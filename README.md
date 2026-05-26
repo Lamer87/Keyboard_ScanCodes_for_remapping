@@ -332,8 +332,8 @@ Source: [kbdlayout.info](https://kbdlayout.info/kbdbr/scancodes)
 
 - ⌨️ **SHOW SCANCODES:** a good tool to show scancodes of your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/),  
 it shows the keycode of the button you are pressing on the keyboard (1st code part only).  
-Example: "ScanCode=0x4F" where the 1st part of the keycode is "4F" but you don't know if the second part is 00 or E0,  
-so just take a look at the table to be sure.
+Example: "ScanCode=0x4F" where the 1st part of the keycode is "4F"  
+but you don't know if the second part is 00 or E0, so just take a look at the table to be sure.
 
 - ⌨️ **EASY REMAPPING:** another good tool is [SharpKeys tool](https://github.com/randyrants/sharpkeys),  
 uses the **same method** as this guide (regedit hex) but with a graphical interface.  
