@@ -76,7 +76,7 @@ Each PAIR of zeroes is separated by a comma (`,`). The last pair ends without.
 
 `Flag`: always 8 zeroes.  
 
-`Number of rebinds`:  
+`Number of rebinds (+ 1)`:  
 only the first 2 bits count as a number (examples: 02 if 2, 05 if 5, 13 if 13),  
 the value must be made up of the number of rebinds (that are 8 bits for each one) + 1.  
 For example, if we want to rebind 4 keys, the value number of rebinds will be 05,00,00,00,  
