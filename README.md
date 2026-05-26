@@ -76,15 +76,15 @@ Each PAIR of zeroes is separated by a comma (`,`). The last pair ends without.
 
 `Flag`: always 8 zeroes.  
 
-`Rebind n1`:  
-3A,00, = 1st part: it's the keycode of the button you need to remap.  
-5D,E0, = 2nd part: it's the keycode of the button you actually press.
-
 `Number of rebinds`:  
 only the first 2 bits count as a number (examples: 02 if 2, 05 if 5, 13 if 13),  
 the value must be made up of the number of rebinds (that are 8 bits for each one) + 1.  
 For example, if we want to rebind 4 keys, the value number of rebinds will be 05,00,00,00,  
 if the rebinds are 12 the value will be 13,00,00,00,
+
+`Rebind n1`:  
+3A,00, = 1st part: it's the keycode of the button you need to remap.  
+5D,E0, = 2nd part: it's the keycode of the button you actually press.
 
 `Final bits`: always 8 zeroes.
 
