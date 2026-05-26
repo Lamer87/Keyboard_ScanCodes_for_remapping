@@ -83,8 +83,8 @@ For example, if we want to rebind 4 keys, the value number of rebinds will be 05
 if the rebinds are 12 the value will be 13,00,00,00,
 
 `Rebind n1`:  
-3A,00, = 1st part: it's the keycode of the button you need to remap.  
-5D,E0, = 2nd part: it's the keycode of the button you actually press.
+3A,00, = 1st part: it's the keycode of the button that reach windows or the game.  
+5D,E0, = 2nd part: it's the keycode of the button you actually press with your finger.
 
 `Final bits`: always 8 zeroes.
 
