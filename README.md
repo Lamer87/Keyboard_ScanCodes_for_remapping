@@ -3,11 +3,11 @@
 ### This is a simple guide for remapping (rebinding) keyboard keys
 ### whitout using a tool, just the system registry (in hexadecimal).
 
-`v1.5` - For ISO, ANSI, ABNT and JIS layouts.
+`v1.6` - For ISO, ANSI, ABNT and JIS layouts.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-- [**📌 Key ScanCode TABLE**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go directly to)
+- [**📌 Key ScanCode TABLE**](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-key-scancode-table) (go to fast)
 
 - [📌 **Displayed keyboard** with ScanCodes](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#-graph-of-a-complete-layout-all-together)
 
@@ -31,7 +31,8 @@ so before applying it you have to EDIT IT properly.
   - If you want to get rid of the remapping, use the file "remover.reg",  
 it can be even used to create just the empty hex value.
 
-  - Every time you apply the values, you must AT LEAST logout and login (or restart), for the changes to take effect.
+  - Every time you apply the values, you must AT LEAST logout and login (or restart),  
+    for the changes to take effect.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
@@ -39,11 +40,13 @@ it can be even used to create just the empty hex value.
 
 - 📜 How to manually create the value in the registry:  
   - 1- Open "C:\Windows\regedit.exe"  
-  - 2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" (not \Keyboard Layout**S**)  
+  - 2- Go to "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout"  
+    (!!! NOT: \Keyboard Layout**S**)  
   - 3- Create a new "binary value" here, named "Scancode Map" (without quotes).
 
-- ✔️ What goes inside the binary value is described below in the regedit file format,
-so you don't have to manually enter values via regedit.exe, but just edit Rebind.reg with notepad, then exec it.
+- ✔️ What goes inside the binary value is described below in the regedit file format,  
+  so you don't have to manually enter values via regedit.exe,  
+  but just edit Rebind.reg with notepad, then execute it.
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
@@ -64,23 +67,22 @@ What means an entire regedit code:
 
 | 00,00,00,00, | 00,00,00,00, | 02,00,00,00, | 3A,00,5D,E0, | 00,00,00,00 |
 |:--- |:--- |:--- |:--- |:--- |
-| 1st 8 bits | 2nd 8 bits | 3rd 8 bits | 4th 8 bits | 5th 8 bits
+| "1st" 8 bits | "2nd" 8 bits | "3rd" 8 bits | "4th" 8 bits | "5th" 8 bits
 | Version | Flag | Number of rebinds +1! | Rebind n1 | Final bits (null)
 
-Each PAIR of zeroes is separated by a comma (`,`) except for the last pair which ends without.
+Each PAIR of zeroes is separated by a comma (`,`). The last pair ends without.
 
 `Version`: always 8 zeroes.  
 
 `Flag`: always 8 zeroes.  
 
 `Rebind n1`:  
-3A,00, = 1st part: it's the keycode of the remapping.  
-5D,E0, = 2nd part: keycode of the button you actually press.
+3A,00, = 1st part: it's the keycode of the button you need to remap.  
+5D,E0, = 2nd part: it's the keycode of the button you actually press.
 
 `Number of rebinds`:  
 only the first 2 bits count as a number (examples: 02 if 2, 05 if 5, 13 if 13),  
-the value must be made up of the number of rebinds (that are 8 bits for each one),  
-plus one for the final 8 bits.  
+the value must be made up of the number of rebinds (that are 8 bits for each one) + 1.  
 For example, if we want to rebind 4 keys, the value number of rebinds will be 05,00,00,00,  
 if the rebinds are 12 the value will be 13,00,00,00,
 
@@ -91,7 +93,8 @@ if the rebinds are 12 the value will be 13,00,00,00,
 What means a single scancode like "`5D,EO`":  
 
 `5D`: this first couple it's the scancode of the key.  
-`E0`: this second couple can be 00 or E0; some keys have the same first couple, changing only this.
+`E0`: this second couple can be either 00 or E0;  
+      some keys have the same first couple, they differentiate just by this second part.
 
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="100"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
@@ -99,18 +102,18 @@ What means a single scancode like "`5D,EO`":
 📜 This is just an explanation of a reg with 3 rebinds (do not use in a reg file!):
 ```
 hex:00,00,00,00,00,00,00,00,04,00,00,00,3A,00,5D,E0,3E,00,46,00,3F,00,45,E0,00,00,00,00
-   |  version  |   flag    |reb. number| 1st rebind| 2nd rebind| 3rd rebind| null bits |
-                                       | these 4 lines count for the number of rebinds |
+   |  version  |   flag    | number of | 1st rebind| 2nd rebind| 3rd rebind| null bits |
+                           |  rebinds  | these 4 lines count for the number of rebinds |
 ```
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
-📜 Same as above with a vertical view (do not use in a reg file!)
+📜 Same as above with a vertical approach (do not use in a reg file!)
 ```
 hex:
 00,00,00,00,  =  version
 00,00,00,00,  =  flag
-04,00,00,00,  =  number of rebinds +1
+04,00,00,00,  =  number of rebinds + 1 (so 3 + 1 = 4)
 3A,00,5D,E0,  =  rebind n1   --\
 3E,00,46,00,  =  rebind n2      \ these 4 lines count towards the
 3F,00,45,E0,  =  rebind n3      / total number of rebinds (even final bits)
@@ -123,8 +126,8 @@ hex:
 ---
 
 ## 📌 Key ScanCode table:  
-### the secondary code is always "00" when there are only 2 digits in "Code",  
-### otherwise it's specified !
+### When you see only 2 digits in "Code" = the secondary code is always "00".  
+### if otherwise, it's specified with the secondary code shown.
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 <div align="center">
@@ -309,14 +312,14 @@ hex:
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 - Note 1: "**Pause**" button can't be used/remapped because it's a multiple bits hex (need a tool like AutoHotKey).
-- Note 2: other keys (like JIS) may not work if you haven't set the correct language (japanase) to Windows.
+- Note 2: other keys (like JIS) may not work if you haven't set the correct Windows language (japanase).
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="200"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 
 ---
 
 ### 📌 Graph of a complete layout (all together)
-Secondary code: only 2 digits = "00", instead "E0" is specified.  
+Secondary code: if you see only 2 digits it's "00", if otherwise "E0" is specified.  
 Orange = layout variations.
 
 [<img src="https://i.ibb.co/17BTZqL/keyboard-scancodes-img-V3-1.jpg" width="1000"/>](https://i.ibb.co/17BTZqL/keyboard-scancodes-img-V3-1.jpg)
@@ -328,14 +331,14 @@ Source: [kbdlayout.info](https://kbdlayout.info/kbdbr/scancodes)
 ### 🕹️ Tools
 
 - ⌨️ **SHOW SCANCODES:** a good tool to show scancodes of your keyboard is [Keyboard Key Info](https://dennisbabkin.com/kbdkeyinfo/),  
-it shows what keycode are you pressing on the keyboard (1st part only).  
-Example: "ScanCode=0x4F" where the keycode 1st part is "4F" but you don't know if the second part is 00 or E0,  
-so just take a look at the table when needed.
+it shows the keycode of the button you are pressing on the keyboard (1st code part only).  
+Example: "ScanCode=0x4F" where the 1st part of the keycode is "4F" but you don't know if the second part is 00 or E0,  
+so just take a look at the table to be sure.
 
 - ⌨️ **EASY REMAPPING:** another good tool is [SharpKeys tool](https://github.com/randyrants/sharpkeys),  
 uses the **same method** as this guide (regedit hex) but with a graphical interface.  
-Remember! do NOT use the "Pause" button: the tool recognizes it but then it doesn't work either way  
-(when "Pause" is used to press another key, or when another key is used to press "Pause").
+Remember! do NOT use the "Pause" button: the tool recognizes it but then it doesn't work either way,  
+when "Pause" is used to press another key, or when another key is used to press "Pause".
 
 [<img src="https://i.ibb.co/h7hwpbn/Empty-png.png" width="1"/>](https://github.com/Lamer87/Keyboard_ScanCodes_for_remapping#keyboard-scancodes-for-remapping-%EF%B8%8F)
 ---
@@ -375,6 +378,7 @@ Remember! do NOT use the "Pause" button: the tool recognizes it but then it does
   - `v1.3` Corrected button "Pause"; can't be used or remapped without a tool like AutoHotKey.
   - `v1.4` added other functions key codes.
   - `v1.5` added ABNT layout key codes.
+  - `v1.6` just minor english fixes.
 
 </p></details>
 
