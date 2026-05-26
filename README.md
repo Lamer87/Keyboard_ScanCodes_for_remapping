@@ -230,7 +230,7 @@ hex:
 | 1D-E0 | RightCtrl
 | |
 | **Middle:** | **—————————** | **—————————** | **—————————** |
-| 37-E0 | PrintScreen | Stamp
+| 37-E0 | PrintScreen | Stamp R sist
 | 46 | ScrollLock | Bloc scorr
 | 45-E1-1D | Pause **[see note¹❗]** | Pausa **[vedi note¹❗]**
 | 52-E0 | Insert
