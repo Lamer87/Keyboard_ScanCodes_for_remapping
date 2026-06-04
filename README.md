@@ -378,7 +378,7 @@ when "Pause" is used to press another key, or when another key is used to press 
   - `v1.3` Corrected button "Pause"; can't be used or remapped without a tool like AutoHotKey.
   - `v1.4` added other functions key codes.
   - `v1.5` added ABNT layout key codes.
-  - `v1.6` just minor english fixes.
+  - `v1.6` just minor english corrections.
 
 </p></details>
 
